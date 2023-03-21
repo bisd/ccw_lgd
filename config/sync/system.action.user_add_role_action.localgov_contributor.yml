@@ -1,0 +1,14 @@
+uuid: df240728-bdef-4610-b106-d1906d189ff0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.localgov_contributor
+  module:
+    - user
+id: user_add_role_action.localgov_contributor
+label: 'Add the Contributor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: localgov_contributor

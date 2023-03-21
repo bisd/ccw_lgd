@@ -1,0 +1,32 @@
+uuid: 6e8c4a1c-06f1-4fc4-92eb-df1ab8a28261
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.services
+  module:
+    - system
+    - views
+  theme:
+    - ccw_lgd
+_core:
+  default_config_hash: dIZQveClXGuKNNnnZIszG9I_DBPhQp4eMCPkbYqVkOg
+id: ccw_lgd_views_block__services_block_service_list_scarfolk
+theme: ccw_lgd
+region: content_top
+weight: 5
+provider: null
+plugin: 'views_block:services-block_service_list'
+settings:
+  id: 'views_block:services-block_service_list'
+  label: 'Services list block'
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '<front>'

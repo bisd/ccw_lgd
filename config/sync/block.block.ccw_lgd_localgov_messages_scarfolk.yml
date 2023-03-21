@@ -1,0 +1,22 @@
+uuid: bb84c204-58be-492d-b5a8-be0db5abf845
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ccw_lgd
+_core:
+  default_config_hash: XqdhRTIfjgkSTBL-WtfsStngpA1B7I9_ajAh3cVOk5s
+id: ccw_lgd_localgov_messages_scarfolk
+theme: ccw_lgd
+region: messages
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

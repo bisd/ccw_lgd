@@ -1,0 +1,22 @@
+uuid: 0d264730-f9ca-4aec-bab2-d5e3be0b6e9a
+langcode: en
+status: true
+dependencies:
+  module:
+    - localgov_services_page
+  theme:
+    - ccw_lgd
+_core:
+  default_config_hash: PVdTznuKPvuCBQyC2dbF8BYAHgpc0PTD0kSIpbSzyrc
+id: ccw_lgd_localgov_servicepagerelatedtopics_scarfolk
+theme: ccw_lgd
+region: sidebar_second
+weight: 1
+provider: null
+plugin: localgov_services_related_topics_block
+settings:
+  id: localgov_services_related_topics_block
+  label: 'Service page related topics'
+  label_display: '0'
+  provider: localgov_services_page
+visibility: {  }

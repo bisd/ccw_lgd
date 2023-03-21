@@ -1,0 +1,27 @@
+uuid: ef886bb8-68ab-4d02-8ccc-b7d3d76bc199
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - ccw_lgd
+_core:
+  default_config_hash: wTuUnaKnGKQiwFQ9bz_B1kDs3FfXc_ujSdtvk4tF88g
+id: ccw_lgd_localgov_mainnavigation_scarfolk
+theme: ccw_lgd
+region: primary_menu
+weight: -1
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

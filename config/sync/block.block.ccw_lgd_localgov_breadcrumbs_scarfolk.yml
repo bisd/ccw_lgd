@@ -1,0 +1,22 @@
+uuid: 07d4de38-38dc-4ee0-bcfa-ed361663c13f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ccw_lgd
+_core:
+  default_config_hash: HMT0p1pe6D6hsYTqyWbzK2nquVWT6anaDXoNu7WYvPI
+id: ccw_lgd_localgov_breadcrumbs_scarfolk
+theme: ccw_lgd
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

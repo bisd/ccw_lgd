@@ -1,0 +1,23 @@
+uuid: c83aec1a-81cf-4c2b-95bd-df1db8ae091a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.localgov_opening_hours
+    - node.type.localgov_services_landing
+  module:
+    - text
+_core:
+  default_config_hash: x2J_yuUTuPt0RSs2aN-bkORnmtxGwJbXA4aBT2oN8yI
+id: node.localgov_services_landing.localgov_opening_hours
+field_name: localgov_opening_hours
+entity_type: node
+bundle: localgov_services_landing
+label: 'Opening hours'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

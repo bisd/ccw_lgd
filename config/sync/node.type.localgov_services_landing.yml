@@ -1,0 +1,13 @@
+uuid: 15bf0cd9-c096-4edf-a0b0-aafae6a174af
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pz0FetUXygbM1FQplBcj-KBsRr-YjJXpF1ZV1PLCSUg
+name: 'Service landing page'
+type: localgov_services_landing
+description: 'Top level section page for each service.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

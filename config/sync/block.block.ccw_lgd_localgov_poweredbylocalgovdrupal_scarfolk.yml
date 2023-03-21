@@ -1,0 +1,22 @@
+uuid: ffe00eb4-7abc-471f-a80e-fc1fb49df6fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - localgov_core
+  theme:
+    - ccw_lgd
+_core:
+  default_config_hash: _rLbHDXkhDWmFVzav5liiDU56NLoRKtMPaN4iMX-p-M
+id: ccw_lgd_localgov_poweredbylocalgovdrupal_scarfolk
+theme: ccw_lgd
+region: footer_second
+weight: 0
+provider: null
+plugin: localgov_powered_by_block
+settings:
+  id: localgov_powered_by_block
+  label: 'Powered by LocalGovDrupal'
+  label_display: '0'
+  provider: localgov_core
+visibility: {  }
