@@ -1,0 +1,85 @@
+menus:
+  -
+    menu_name: main
+    title: ABOUT
+    parent: null
+    uri: 'entity:node/1'
+    link_title: null
+    description: null
+    enabled: true
+    expanded: false
+    weight: 0
+    langcode: en
+    uuid: 713e5e5b-f039-4205-92d9-1dceb45f1d3f
+  -
+    menu_name: main
+    title: CALENDAR
+    parent: null
+    uri: 'entity:node/2'
+    link_title: null
+    description: null
+    enabled: true
+    expanded: false
+    weight: 1
+    langcode: en
+    uuid: 99db72d3-8401-4bb0-93c5-20cbf48c624c
+  -
+    menu_name: main
+    title: CONTACT
+    parent: null
+    uri: 'entity:node/3'
+    link_title: null
+    description: null
+    enabled: true
+    expanded: false
+    weight: 5
+    langcode: en
+    uuid: 54232794-7d3e-41c0-952c-fc3917ca1572
+  -
+    menu_name: main
+    title: THOUGHTS
+    parent: null
+    uri: 'entity:node/4'
+    link_title: null
+    description: null
+    enabled: true
+    expanded: false
+    weight: 4
+    langcode: en
+    uuid: 307344a7-1117-4252-8817-a698bcef41ff
+  -
+    menu_name: main
+    title: PROGRAMMES
+    parent: null
+    uri: 'internal:#'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 2
+    langcode: en
+    uuid: d327471a-1c1c-49df-bd36-f6cf0422f34f
+  -
+    menu_name: main
+    title: BLOG
+    parent: null
+    uri: 'internal:/blog'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 3
+    langcode: en
+    uuid: 96333c64-5832-4de8-964f-fdb6d3e45697
+  -
+    menu_name: main
+    title: DONATE
+    parent: null
+    uri: 'https://donate.kindlink.com/clearcommunityweb/3161'
+    link_title: ''
+    description: null
+    enabled: true
+    expanded: false
+    weight: 6
+    langcode: en
+    uuid: e30fce96-adfb-453e-9f15-094a938e042c
