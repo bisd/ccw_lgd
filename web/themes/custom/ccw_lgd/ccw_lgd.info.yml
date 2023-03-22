@@ -9,11 +9,12 @@ libraries-extend:
   # of those extending localgov_base/global
   localgov_base/global:
     - ccw_lgd/variables
+    - ccw_lgd/overrides
     # - ccw_lgd/other-library-to-load-on-every-page
     # - ccw_lgd/other-library-to-load-on-every-page
   # Add libraries here that extend specific libraries.
   # localgov_base/sample-library:
-    # - ccw_lgd/sample-library
+  # - ccw_lgd/sample-library
 
 regions:
   tabs: "Tabs"
