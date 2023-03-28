@@ -1,0 +1,25 @@
+uuid: fa258fe5-f895-47e3-8e39-c3d519c07304
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:lower_footer_third_block_type:8f9a95fe-0c40-45c6-b050-4f7871e89bc3'
+  module:
+    - block_content
+  theme:
+    - ccw_lgd
+id: lowerfooterthirdblock
+theme: ccw_lgd
+region: lower_footer_third
+weight: 0
+provider: null
+plugin: 'block_content:8f9a95fe-0c40-45c6-b050-4f7871e89bc3'
+settings:
+  id: 'block_content:8f9a95fe-0c40-45c6-b050-4f7871e89bc3'
+  label: 'Lower footer third block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -2,7 +2,10 @@ uuid: 6725dd6b-6617-4892-9786-656cb7ba087a
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.wysiwyg
   module:
+    - filter
     - media
     - system
 _core:

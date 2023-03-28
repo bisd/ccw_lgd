@@ -54,3 +54,57 @@ body{
  .branding__item--logo{
     width: 300px;
  }
+
+ h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+.heading{
+   text-align: center;
+   margin-top: var(--vertical-rhythm-spacing);
+}
+
+.lgd-footer__post-footer{
+   font-size: var(--font-size-smaller);
+   width: 100%;
+   color: white;
+   text-align: left;
+   padding-top: clamp(1.3rem,10vw,var(--section-spacing-vertical-post-footer));
+   padding-bottom: clamp(10vw,var(--section-spacing-vertical-post-footer));
+   transition: all 0.4s ease-in-out;
+}
+.region-lower-footer-second{
+   display: none;
+}
+.lower-footer-social-icons{
+   display: flex;
+   font-size: var(--font-size-medium);
+   padding-left: 50%;
+}
+.lower-footer-social-icons a{
+   font-size: var(--font-size-medium);
+}
+.lower-footer-social-icons .icon{
+   margin-left: 20px;
+   text-decoration: none;
+}
+.lower-footer-social-icon-facebook, .lower-footer-social-icon-twitter, .lower-footer-social-icon-instagram{
+   width: 30%;
+}
+
+.footer-widget{
+   width: 12%;
+   margin-right: 60px;
+}
+
+.footer-widget:last-child{
+   margin-right: 0px;
+}

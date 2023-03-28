@@ -2,7 +2,15 @@ uuid: 6392b524-9c7a-4897-a562-673a878c5d95
 langcode: en
 status: true
 dependencies:
+  config:
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - node.type.localgov_services_landing
+    - node.type.localgov_services_page
+    - node.type.localgov_services_sublanding
   module:
+    - entity_browser
     - media
     - node
     - paragraphs

@@ -1,0 +1,8 @@
+uuid: 19e5839b-4337-4fd8-b37e-6726750d46e4
+langcode: en
+status: true
+dependencies: {  }
+id: lower_footer_first
+label: 'Lower Footer first'
+revision: 0
+description: 'copyright etc.'

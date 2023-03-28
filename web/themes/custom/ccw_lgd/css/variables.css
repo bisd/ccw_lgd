@@ -82,3 +82,12 @@ body {
   --heading-5-line-height: var(--line-height);
   --heading-6-line-height: var(--line-height);
 }
+
+body {
+  /* Apply Variables */
+  --color-section-pre-footer-bg: var(--color-white);
+  --color-section-post-footer-bg: var(--color-accent);
+  --color-post-footer-text: var(--color-white);
+  --color-post-footer-link: #ffffff;
+  /*--width-container: var(--width-mega);*/
+}

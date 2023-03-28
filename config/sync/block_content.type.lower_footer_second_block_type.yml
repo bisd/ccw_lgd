@@ -1,0 +1,8 @@
+uuid: 497eb542-415f-41d3-a072-34f32d0d32e1
+langcode: en
+status: true
+dependencies: {  }
+id: lower_footer_second_block_type
+label: 'Lower footer second block type'
+revision: 0
+description: ''

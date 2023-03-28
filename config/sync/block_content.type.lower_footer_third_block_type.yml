@@ -1,0 +1,8 @@
+uuid: ebffad39-fb15-4932-aac6-24ca191469b2
+langcode: en
+status: true
+dependencies: {  }
+id: lower_footer_third_block_type
+label: 'Lower footer third block type'
+revision: 0
+description: ''

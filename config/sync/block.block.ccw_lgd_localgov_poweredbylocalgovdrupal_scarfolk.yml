@@ -1,6 +1,6 @@
 uuid: f8745ff9-3650-43c4-bea8-4013a1e07654
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - localgov_core
