@@ -12,45 +12,6 @@ blocks:
           value: "<h1 class=\"text-align-center\">ClearCommunityWeb</h1>\r\n\r\n<h2>We develop digital skills, awareness &amp; build confidence online.</h2>\r\n"
           summary: ''
           format: wysiwyg
-  -
-    info: 'Lower footer third block'
-    langcode: en
-    uuid: 8f9a95fe-0c40-45c6-b050-4f7871e89bc3
-    bundle: lower_footer_third_block_type
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: "<div class=\"lower-footer-social-icons\">\r\n<div class=\"lower-footer-social-icon-facebook\"><a class=\"icon\" href=\"https://www.facebook.com/ClearCommunityWeb\"><span aria-hidden=\"true\" class=\"fa fa-facebook\">&nbsp;</span></a></div>\r\n\r\n<div class=\"lower-footer-social-icon-twitter\"><a class=\"icon\" href=\"https://twitter.com/ClearCommunity\"><span aria-hidden=\"true\" class=\"fa fa-twitter\">&nbsp;</span></a></div>\r\n\r\n<div class=\"lower-footer-social-icon-instagram\"><a class=\"icon\" href=\"https://instagram.com/ClearCommunityWeb\"><span aria-hidden=\"true\" class=\"fa fa-instagram\">&nbsp;</span></a></div>\r\n</div>\r\n"
-          summary: ''
-          format: wysiwyg
-  -
-    info: 'Lower footer second'
-    langcode: en
-    uuid: a8b3fe14-a84e-419f-bb78-0d3f41c3e6f7
-    bundle: lower_footer_second_block_type
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p>Empty</p>'
-          summary: ''
-          format: wysiwyg
-  -
-    info: 'Lower Footer First block'
-    langcode: en
-    uuid: 29dfb5d7-3248-4412-ab2f-d663f6eb927c
-    bundle: lower_footer_first
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p>© 2022 ClearCommunityWeb CIC No.11900948 | Built by <a href="https://clearcommunityweb.co.uk">ClearCommunityWeb</a></p>'
-          summary: ''
-          format: wysiwyg
 menus:
   -
     menu_name: main
