@@ -1,0 +1,8 @@
+uuid: 93e5f897-a31a-4a89-9244-2b174d9bf7b6
+langcode: en
+status: true
+dependencies: {  }
+id: home_page_head
+label: 'Home Page head'
+revision: 0
+description: ''

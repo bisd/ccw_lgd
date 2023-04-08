@@ -72,6 +72,11 @@ h6,
    margin-top: var(--vertical-rhythm-spacing);
 }
 
+.view-id-slider{
+   width: 90vw;
+   left: calc(-36vw + 50%);
+}
+
 .lgd-footer__post-footer{
    font-size: var(--font-size-smaller);
    width: 100%;

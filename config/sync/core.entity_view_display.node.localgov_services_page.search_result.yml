@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.search_result
     - field.field.node.localgov_services_page.body
+    - field.field.node.localgov_services_page.layout_builder__layout
     - field.field.node.localgov_services_page.localgov_common_tasks
     - field.field.node.localgov_services_page.localgov_download_links
     - field.field.node.localgov_services_page.localgov_hide_related_topics
@@ -31,6 +32,7 @@ content:
 hidden:
   body: true
   content_moderation_control: true
+  layout_builder__layout: true
   links: true
   localgov_common_tasks: true
   localgov_download_links: true

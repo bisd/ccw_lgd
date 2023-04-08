@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.localgov_services_page.body
+    - field.field.node.localgov_services_page.layout_builder__layout
     - field.field.node.localgov_services_page.localgov_common_tasks
     - field.field.node.localgov_services_page.localgov_download_links
     - field.field.node.localgov_services_page.localgov_hide_related_topics
@@ -14,8 +15,53 @@ dependencies:
     - field.field.node.localgov_services_page.localgov_topic_classified
     - node.type.localgov_services_page
   module:
+    - layout_builder
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          b8f370ae-f6db-4ca0-b5ef-87ec51a868c2:
+            uuid: b8f370ae-f6db-4ca0-b5ef-87ec51a868c2
+            region: content
+            configuration:
+              id: 'field_block:node:localgov_services_page:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          a2b10383-1104-475c-8795-3a25a58389e2:
+            uuid: a2b10383-1104-475c-8795-3a25a58389e2
+            region: content
+            configuration:
+              id: 'field_block:node:localgov_services_page:localgov_page_components'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: default
+                  link: true
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
 _core:
   default_config_hash: P3Nu2VBOG5LmcZqxfGBEqnw8dLtJXmbGkStICOID2No
 id: node.localgov_services_page.default
@@ -24,23 +70,24 @@ bundle: localgov_services_page
 mode: default
 content:
   body:
-    label: hidden
-    weight: 0
     type: text_default
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
   localgov_page_components:
-    weight: 1
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      link: true
       view_mode: default
+      link: true
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 1
     region: content
 hidden:
   content_moderation_control: true
+  layout_builder__layout: true
   links: true
   localgov_common_tasks: true
   localgov_download_links: true

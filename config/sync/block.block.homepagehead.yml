@@ -1,0 +1,30 @@
+uuid: 0201324e-b6e3-43fd-ad5d-c199c24dd73a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:home_page_head:778534b1-f0ab-45f7-ab11-e6596e4711f7'
+  module:
+    - block_content
+    - system
+  theme:
+    - ccw_lgd
+id: homepagehead
+theme: ccw_lgd
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:778534b1-f0ab-45f7-ab11-e6596e4711f7'
+settings:
+  id: 'block_content:778534b1-f0ab-45f7-ab11-e6596e4711f7'
+  label: 'Home Page head'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
