@@ -1,0 +1,21 @@
+uuid: acd22bf6-6771-48c6-bffb-1f65730d3c99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_headline
+    - node.type.blog
+  module:
+    - text
+id: node.blog.field_blog_headline
+field_name: field_blog_headline
+entity_type: node
+bundle: blog
+label: 'Blog headline'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

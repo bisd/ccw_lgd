@@ -1,0 +1,22 @@
+uuid: f66cf126-fa11-4b78-9591-ffb948ab8023
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.blog_page_headline
+    - field.field.block_content.blog_page_headline.body
+  module:
+    - text
+id: block_content.blog_page_headline.default
+targetEntityType: block_content
+bundle: blog_page_headline
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

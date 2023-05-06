@@ -74,6 +74,7 @@ h6,
 
 .view-id-slider{
    width: 90vw;
+   position: relative;
    left: calc(-36vw + 50%);
 }
 
@@ -113,3 +114,58 @@ h6,
 .footer-widget:last-child{
    margin-right: 0px;
 }
+
+/*Blog*/
+
+.lgd-teaser__content--blog h3{
+   display: none;
+}
+.view-blog .col-1, .view-blog .col-2, .view-blog .col-3{
+   padding-right: 3.75rem;
+}
+.view-blog .feed-icons{
+   display: none;
+}
+.block-field-blocknodeblogfield-blog-headline{
+   font-size: var(--font-size-h3);
+   font-weight: 500;
+   color: #0b0c0c;
+}
+.node--type-blog .layout--onecol{
+   border-bottom-style: solid;
+   border-bottom-color: lightgray;
+   border-bottom-width: 1px;
+   border-left-color: lightgray;
+   border-left-style: solid;
+   border-left-width: 1px;
+   border-right-style: solid;
+   border-right-color: lightgray;
+   border-right-width: 1px;
+   border-top-width: 0px;
+}
+.node--type-blog .layout--onecol .field--name-field-blog-headline,
+.node--type-blog .layout--onecol .field--name-field-blog-date,
+.node--type-blog .layout--onecol .field--name-field-blog-author,
+.node--type-blog .layout--onecol .field--name-body 
+{
+   padding: 0 1rem 0 1rem;
+}
+#block-views-block-blog-blog-block--2{
+   background-color: white;
+}
+#block-views-block-blog-blog-block--2 h2{
+   font-size: 25px;
+   text-align: left;
+ }
+ #block-views-block-blog-blog-block--2 .view-blog a{
+   color: #666;
+   text-decoration: none;
+   line-height: 27px;
+   font-weight: 500;
+   width: 70%;
+   display: block;
+   padding: 0 0 3px 0;
+ }
+ .lgd-region__inner--sidebar-second > a{
+   display: none;
+ }

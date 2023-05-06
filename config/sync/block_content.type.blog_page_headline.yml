@@ -1,0 +1,8 @@
+uuid: 94026c31-dced-41fd-a626-207af4c46cc5
+langcode: en
+status: true
+dependencies: {  }
+id: blog_page_headline
+label: 'Blog Page Headline'
+revision: 0
+description: ''

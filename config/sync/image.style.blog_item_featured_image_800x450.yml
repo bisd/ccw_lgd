@@ -1,0 +1,15 @@
+uuid: 75dcf33c-3553-40d8-8473-382223ce6465
+langcode: en
+status: true
+dependencies: {  }
+name: blog_item_featured_image_800x450
+label: 'Blog Item Featured Image 800x450'
+effects:
+  bb0ee287-ed8c-4055-8f4f-94555fc4be50:
+    uuid: bb0ee287-ed8c-4055-8f4f-94555fc4be50
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 800
+      height: 450
+      anchor: center-center

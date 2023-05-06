@@ -1,0 +1,15 @@
+uuid: 689e794c-4d0f-4df2-848b-5b0642026e45
+langcode: en
+status: true
+dependencies: {  }
+name: blog_sidebar_thumbnails_186x106
+label: 'Blog Sidebar thumbnails 186x106'
+effects:
+  7e55b3c9-65a7-4f7f-bfc0-d118c4600586:
+    uuid: 7e55b3c9-65a7-4f7f-bfc0-d118c4600586
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 186
+      height: 106
+      anchor: center-center
