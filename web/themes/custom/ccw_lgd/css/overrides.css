@@ -150,14 +150,14 @@ h6,
 {
    padding: 0 1rem 0 1rem;
 }
-#block-views-block-blog-blog-block--2{
+#block-views-block-blog-blog-block{
    background-color: white;
 }
-#block-views-block-blog-blog-block--2 h2{
+#block-views-block-blog-blog-block h2{
    font-size: 25px;
    text-align: left;
  }
- #block-views-block-blog-blog-block--2 .view-blog a{
+ #block-views-block-blog-blog-block .view-blog a{
    color: #666;
    text-decoration: none;
    line-height: 27px;
