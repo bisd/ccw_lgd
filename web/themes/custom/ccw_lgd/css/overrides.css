@@ -150,15 +150,16 @@ h6,
 {
    padding: 0 1rem 0 1rem;
 }
-#block-views-block-blog-blog-block--2{
+
+/*Blog - Recent Posts Sidebar*/
+.sidebar .lgd-region__inner > *{
    background-color: white;
-}
-#block-views-block-blog-blog-block--2 h2{
+ }
+.block-views h2{
    font-size: 25px;
    text-align: left;
  }
- /*#block-views-block-blog-blog-block--2 .view-blog a{*/
- #block-views-block-blog-blog-block--2 .view-duplicate-of-blog a{
+ .block-views .view-display-id-blog_block a{
    color: #666;
    text-decoration: none;
    line-height: 27px;

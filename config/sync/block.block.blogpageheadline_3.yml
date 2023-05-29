@@ -1,0 +1,30 @@
+uuid: 7b8dfaec-b371-48ac-b0cc-25c806beedb9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:blog_page_headline:c2bd4daa-1b8c-4924-995c-d86434616370'
+  module:
+    - block_content
+    - system
+  theme:
+    - ccw_lgd
+id: blogpageheadline_3
+theme: ccw_lgd
+region: content_bottom
+weight: 0
+provider: null
+plugin: 'block_content:c2bd4daa-1b8c-4924-995c-d86434616370'
+settings:
+  id: 'block_content:c2bd4daa-1b8c-4924-995c-d86434616370'
+  label: 'Home Page Blog Headline'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

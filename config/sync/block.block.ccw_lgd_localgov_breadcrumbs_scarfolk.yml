@@ -11,7 +11,7 @@ _core:
 id: ccw_lgd_localgov_breadcrumbs_scarfolk
 theme: ccw_lgd
 region: breadcrumb
-weight: 0
+weight: -11
 provider: null
 plugin: system_breadcrumb_block
 settings:

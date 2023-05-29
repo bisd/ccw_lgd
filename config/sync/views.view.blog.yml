@@ -1,4 +1,4 @@
-uuid: 890042a5-4c3f-41fc-9eb6-7f31b83c8663
+uuid: 0e0697a5-24d3-4016-85c1-841315cbeb8d
 langcode: en
 status: true
 dependencies:
@@ -149,15 +149,42 @@ display:
           id: status
           table: node_field_data
           field: status
+          relationship: none
+          group_type: group
+          admin_label: ''
           entity_type: node
           entity_field: status
           plugin_id: boolean
+          operator: '='
           value: '1'
           group: 1
+          exposed: false
           expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
             operator: ''
             operator_limit_selection: false
             operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
         type:
           id: type
           table: node_field_data
@@ -237,24 +264,20 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  blog_all:
-    id: blog_all
-    display_title: 'All blog posts'
-    display_plugin: page
-    position: 1
+  block_1:
+    id: block_1
+    display_title: 'Home Page Blog Block'
+    display_plugin: block
+    position: 6
     display_options:
+      access:
+        type: none
+        options: {  }
+      defaults:
+        access: false
       display_description: ''
       display_extenders: {  }
-      path: blog
-      menu:
-        type: tab
-        title: BLOG
-        description: ''
-        weight: 0
-        expanded: false
-        menu_name: main
-        parent: ''
-        context: '0'
+      block_description: 'Home Page Blogs Block'
     cache_metadata:
       max-age: -1
       contexts:
@@ -262,7 +285,28 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+      tags: {  }
+  block_2:
+    id: block_2
+    display_title: 'Blog Page Blog Block'
+    display_plugin: block
+    position: 6
+    display_options:
+      access:
+        type: none
+        options: {  }
+      defaults:
+        access: false
+      display_description: ''
+      display_extenders: {  }
+      block_description: 'Blog Page Blogs Block'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
       tags: {  }
   blog_block:
     id: blog_block
@@ -367,7 +411,7 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 90
+            max_length: 70
             word_boundary: true
             ellipsis: true
             more_link: false
@@ -545,7 +589,6 @@ display:
       path: blog/feed
       sitename_title: false
       displays:
-        blog_all: blog_all
         default: '0'
         blog_block: '0'
         blog_user_all: '0'
@@ -634,7 +677,6 @@ display:
       displays:
         blog_user_all: blog_user_all
         default: '0'
-        blog_all: '0'
         blog_block: '0'
     cache_metadata:
       max-age: -1
@@ -642,6 +684,33 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  page_1:
+    id: page_1
+    display_title: 'All blog posts'
+    display_plugin: page
+    position: 7
+    display_options:
+      display_description: ''
+      display_extenders: {  }
+      path: blog
+      menu:
+        type: tab
+        title: BLOG
+        description: ''
+        weight: 0
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }

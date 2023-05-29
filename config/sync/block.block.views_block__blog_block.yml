@@ -1,0 +1,29 @@
+uuid: e17f19c5-f13f-4427-8f2c-bea733708465
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog
+  module:
+    - system
+    - views
+  theme:
+    - ccw_lgd
+id: views_block__blog_block
+theme: ccw_lgd
+region: content_bottom
+weight: 0
+provider: null
+plugin: 'views_block:blog-block_1'
+settings:
+  id: 'views_block:blog-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

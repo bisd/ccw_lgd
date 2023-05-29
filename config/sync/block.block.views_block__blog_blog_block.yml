@@ -1,4 +1,4 @@
-uuid: 4136059b-3afb-44ec-867f-435179af3a1a
+uuid: 9517fcb2-6e76-4776-a22d-3758b1ab86bc
 langcode: en
 status: true
 dependencies:
@@ -21,7 +21,7 @@ settings:
   label_display: visible
   provider: views
   views_label: ''
-  items_per_page: '5'
+  items_per_page: none
 visibility:
   'entity_bundle:node':
     id: 'entity_bundle:node'
