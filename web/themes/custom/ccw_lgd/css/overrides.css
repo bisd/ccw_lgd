@@ -78,6 +78,27 @@ h6,
    left: calc(-36vw + 50%);
 }
 
+/*Footer thumbnails*/
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+#footer-thumbnails {
+   padding-top: 64px;
+}
+
+ #footer-thumbnails .column {
+   float: left;
+   width: 16.16%;
+   padding: 5px;
+ }
+ 
+ /* Clear floats after image containers */
+ #footer-thumbnails .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ } 
+
+/*Lower Footer*/
+
 .lgd-footer__post-footer{
    font-size: var(--font-size-smaller);
    width: 100%;

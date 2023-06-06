@@ -1,0 +1,8 @@
+uuid: 9e7eee35-8aa8-407e-bfcf-7dff1455c0f4
+langcode: en
+status: true
+dependencies: {  }
+id: footer_thumbnails_block_type
+label: 'Footer thumbnails block type'
+revision: 0
+description: ''

@@ -1,0 +1,25 @@
+uuid: 35c74968-0728-4e89-b4c9-0a570eae93c8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_thumbnails_block_type:dbd292f4-9276-4623-8b29-16566f8d223d'
+  module:
+    - block_content
+  theme:
+    - ccw_lgd
+id: footerthumbnailscustomblock
+theme: ccw_lgd
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:dbd292f4-9276-4623-8b29-16566f8d223d'
+settings:
+  id: 'block_content:dbd292f4-9276-4623-8b29-16566f8d223d'
+  label: 'Footer thumbnails custom block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
