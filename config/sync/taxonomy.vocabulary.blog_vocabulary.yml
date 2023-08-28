@@ -1,0 +1,8 @@
+uuid: 9f7a3f91-6bef-4d32-80a6-e616fca62298
+langcode: en
+status: true
+dependencies: {  }
+name: 'Blog Vocabulary'
+vid: blog_vocabulary
+description: ''
+weight: 0

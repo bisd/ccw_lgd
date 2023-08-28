@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.blog.field_blog_date
     - field.field.node.blog.field_blog_headline
     - field.field.node.blog.field_blog_image
+    - field.field.node.blog.field_categories
     - image.style.thumbnail
     - node.type.blog
   module:
@@ -67,6 +68,12 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_categories:
+    type: options_buttons
+    weight: 127
+    region: content
+    settings: {  }
     third_party_settings: {  }
   path:
     type: path

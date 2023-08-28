@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.blog.field_blog_date
     - field.field.node.blog.field_blog_headline
     - field.field.node.blog.field_blog_image
+    - field.field.node.blog.field_categories
     - node.type.blog
   module:
     - layout_builder
@@ -143,3 +144,4 @@ hidden:
   field_blog_date: true
   field_blog_headline: true
   field_blog_image: true
+  field_categories: true

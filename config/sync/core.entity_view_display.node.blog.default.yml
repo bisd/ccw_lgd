@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.blog.field_blog_date
     - field.field.node.blog.field_blog_headline
     - field.field.node.blog.field_blog_image
+    - field.field.node.blog.field_categories
     - node.type.blog
   module:
     - datetime
@@ -124,6 +125,22 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 1
             additional: {  }
+          d84eb29b-faaf-45a3-924a-63b16d91f32b:
+            uuid: d84eb29b-faaf-45a3-924a-63b16d91f32b
+            region: content
+            configuration:
+              id: 'field_block:node:blog:field_categories'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 6
+            additional: {  }
         third_party_settings: {  }
 id: node.blog.default
 targetEntityType: node
@@ -171,6 +188,14 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 105
+    region: content
+  field_categories:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 107
     region: content
   links:
     settings: {  }

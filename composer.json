@@ -33,6 +33,7 @@
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
         "drupal/flexslider": "^2.0",
+        "drupal/link_attributes": "^1.14",
         "drupal/structure_sync": "^2.0",
         "localgovdrupal/localgov": "^2.0",
         "localgovdrupal/localgov_search_solr": "^1.0@alpha",
