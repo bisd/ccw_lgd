@@ -12,7 +12,7 @@ dependencies:
 id: blogpageheadline
 theme: ccw_lgd
 region: content_top
-weight: 0
+weight: -11
 provider: null
 plugin: 'block_content:c2bd4daa-1b8c-4924-995c-d86434616370'
 settings:

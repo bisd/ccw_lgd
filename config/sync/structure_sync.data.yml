@@ -163,4 +163,35 @@ menus:
     langcode: en
     uuid: e30fce96-adfb-453e-9f15-094a938e042c
 taxonomies:
+  blog_vocabulary:
+    -
+      vid: blog_vocabulary
+      tid: '1'
+      langcode: en
+      name: Learning
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 4d32eea4-fe04-4abe-9db6-9da85197ae7a
+    -
+      vid: blog_vocabulary
+      tid: '2'
+      langcode: en
+      name: Tech
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '0'
+      uuid: def979f7-7dd9-4370-8e9f-eaeee9948983
+    -
+      vid: blog_vocabulary
+      tid: '3'
+      langcode: en
+      name: Other
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '0'
+      uuid: 1e5e9f9b-6bba-480d-9e29-d1792fdf1231
   localgov_topic: {  }

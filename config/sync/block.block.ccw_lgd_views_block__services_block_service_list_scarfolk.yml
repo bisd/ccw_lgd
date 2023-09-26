@@ -14,7 +14,7 @@ _core:
 id: ccw_lgd_views_block__services_block_service_list_scarfolk
 theme: ccw_lgd
 region: content_top
-weight: 5
+weight: -5
 provider: null
 plugin: 'views_block:services-block_service_list'
 settings:

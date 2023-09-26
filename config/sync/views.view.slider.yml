@@ -1,4 +1,4 @@
-uuid: 5567818e-9221-4d3f-93a0-871bce68ede3
+uuid: 054b5cad-e09c-404c-9882-e9daea53a53e
 langcode: en
 status: true
 dependencies:
@@ -79,7 +79,7 @@ display:
           click_sort_column: target_id
           type: flexslider_responsive
           settings:
-            image_style: large_21_9
+            image_style: ''
             image_link: ''
             image_loading:
               attribute: lazy
@@ -165,44 +165,14 @@ display:
           id: type
           table: node_field_data
           field: type
-          relationship: none
-          group_type: group
-          admin_label: ''
           entity_type: node
           entity_field: type
           plugin_id: bundle
-          operator: in
           value:
             slider: slider
-          group: 1
-          exposed: false
           expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
             operator_limit_selection: false
             operator_list: {  }
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
       style:
         type: flexslider
       row:

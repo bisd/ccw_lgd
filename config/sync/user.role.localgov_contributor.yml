@@ -9,6 +9,8 @@ dependencies:
     - node.type.localgov_services_landing
     - node.type.localgov_services_page
     - node.type.localgov_services_sublanding
+    - node.type.localgov_subsites_overview
+    - node.type.localgov_subsites_page
   module:
     - entity_browser
     - media
@@ -38,6 +40,8 @@ permissions:
   - 'create localgov_services_landing content'
   - 'create localgov_services_page content'
   - 'create localgov_services_sublanding content'
+  - 'create localgov_subsites_overview content'
+  - 'create localgov_subsites_page content'
   - 'create media'
   - 'create paragraph library item'
   - 'create remote_video media'
@@ -48,6 +52,8 @@ permissions:
   - 'delete own localgov_services_landing content'
   - 'delete own localgov_services_page content'
   - 'delete own localgov_services_sublanding content'
+  - 'delete own localgov_subsites_overview content'
+  - 'delete own localgov_subsites_page content'
   - 'delete own remote_video media'
   - 'edit any document media'
   - 'edit any image media'
@@ -57,6 +63,8 @@ permissions:
   - 'edit own localgov_services_landing content'
   - 'edit own localgov_services_page content'
   - 'edit own localgov_services_sublanding content'
+  - 'edit own localgov_subsites_overview content'
+  - 'edit own localgov_subsites_page content'
   - 'edit own remote_video media'
   - 'edit paragraph library item'
   - 'update media'
@@ -64,6 +72,8 @@ permissions:
   - 'view localgov_services_landing revisions'
   - 'view localgov_services_page revisions'
   - 'view localgov_services_sublanding revisions'
+  - 'view localgov_subsites_overview revisions'
+  - 'view localgov_subsites_page revisions'
   - 'view own unpublished content'
   - 'view own unpublished media'
   - 'view the administration theme'

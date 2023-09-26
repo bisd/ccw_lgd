@@ -12,7 +12,7 @@ dependencies:
 id: homepagehead
 theme: ccw_lgd
 region: content_top
-weight: 0
+weight: -10
 provider: null
 plugin: 'block_content:778534b1-f0ab-45f7-ab11-e6596e4711f7'
 settings:
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '<front>'
+    pages: "<front>\r\n/home-2"

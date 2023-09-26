@@ -12,7 +12,7 @@ _core:
 id: ccw_lgd_localgov_home_welcome_block_scarfolk
 theme: ccw_lgd
 region: content_top
-weight: 0
+weight: -7
 provider: null
 plugin: localgov_home_welcome_block
 settings:

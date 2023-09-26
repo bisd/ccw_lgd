@@ -11,7 +11,7 @@ _core:
 id: ccw_lgd_localgov_servicescalltoaction_scarfolk
 theme: ccw_lgd
 region: content_top
-weight: 1
+weight: -6
 provider: null
 plugin: localgov_service_cta_block
 settings:

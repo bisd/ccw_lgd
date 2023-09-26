@@ -11,7 +11,7 @@ _core:
 id: ccw_lgd_localgov_page_header_block_scarfolk
 theme: ccw_lgd
 region: content_top
-weight: -10
+weight: -8
 provider: null
 plugin: localgov_page_header_block
 settings:
