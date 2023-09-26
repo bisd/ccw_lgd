@@ -11,6 +11,14 @@ body{
     text-decoration: none;
     color: #ebecfd;
  }
+
+.branding__item--logo{
+   width: 300px;
+}
+
+ .branding__logo {
+   margin-top: -32px;
+ }
  
  .menu--main > .menu-item {
     font-size: .77rem;
@@ -50,10 +58,6 @@ body{
  .lgd-header__inner{
     justify-content: start;
  }
- 
- .branding__item--logo{
-    width: 300px;
- }
 
  h1,
 .h1,
@@ -72,11 +76,10 @@ h6,
    margin-top: var(--vertical-rhythm-spacing);
 }
 
-.view-id-slider{
-   width: 90vw;
-   position: relative;
-   left: calc(-36vw + 50%);
-}
+.padding-horizontal-slideshow {
+   padding-right: var(--spacing-frontpage-slideshow);
+   padding-left: var(--spacing-frontpage-slideshow);
+ }
 
 /*Footer thumbnails*/
  /* Three image containers (use 25% for four, and 50% for two, etc) */
