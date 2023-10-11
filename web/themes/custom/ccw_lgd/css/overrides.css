@@ -19,6 +19,17 @@ body{
  .branding__logo {
    margin-top: -32px;
  }
+
+  /*for main menu - from base.css*/
+  a:not([class*="toolbar"]):focus {
+   text-decoration: none;
+   color: none;
+   outline: none;
+   background-color: none;
+   -webkit-box-decoration-break: none;
+   box-decoration-break: none;
+   box-shadow: none;
+ }
  
  .menu--main > .menu-item {
     font-size: .77rem;
@@ -79,6 +90,71 @@ h6,
 .padding-horizontal-slideshow {
    padding-right: var(--spacing-frontpage-slideshow);
    padding-left: var(--spacing-frontpage-slideshow);
+ }
+
+/*padding-bottom: 56.25%;
+  position: relative;
+  left: calc(-45vw + 50%);
+  width: 90vw;
+}*/
+
+ /*Embedded video on home page*/
+ #our-impact-video {
+   padding-bottom:56.25%; 
+   position:relative; 
+   display:block; 
+   width: 100%;
+ }
+ #our-impact-video > iframe{
+   width: 100%;
+   height: 100%;
+   position:absolute; 
+   top:0; 
+   left: 0
+ }
+
+  /*Mailchimp form on home page*/
+  #mc_title{
+   margin: auto;
+  }
+  #mc_embed_signup{
+   padding-top: 10%;
+  }
+ label[for="gen_news"] {
+   display: contents;
+ }
+ label[for="volunteering"] {
+   display: contents;
+ }
+ #mc_info{
+   font-weight: bold;
+   text-align: center;
+ }
+ #mc_checkbox_question{
+   text-align: center;
+ }
+ .mc-field-group{
+   margin: 1rem;
+   padding: 2rem 2rem;
+   text-align: center;
+ }
+ #mce-EMAIL{
+   padding: 25px 40px;
+   font-size: 20px;
+   width: 60%;
+ }
+ #mc-embedded-subscribe{
+   text-transform: uppercase;
+   display: inline-block;
+   border: 1px solid red;
+   padding: 1.55rem 1.55rem;
+   vertical-align: middle;
+ }
+ #mc-embedded-subscribe-form{
+   background: #f9f9f9;
+   padding: 2%;
+   max-width: 800px;
+   margin: auto;
  }
 
 /*Footer thumbnails*/
@@ -145,7 +221,7 @@ h6,
    display: none;
 }
 .view-blog .col-1, .view-blog .col-2, .view-blog .col-3{
-   padding-right: 3.75rem;
+   padding-right: 1.75rem;
 }
 .view-blog .feed-icons{
    display: none;

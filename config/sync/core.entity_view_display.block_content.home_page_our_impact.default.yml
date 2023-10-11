@@ -1,0 +1,22 @@
+uuid: a16728c9-d93e-409e-9a8b-e462bfcc1a53
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home_page_our_impact
+    - field.field.block_content.home_page_our_impact.body
+  module:
+    - text
+id: block_content.home_page_our_impact.default
+targetEntityType: block_content
+bundle: home_page_our_impact
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

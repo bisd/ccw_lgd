@@ -1,80 +1,28 @@
 blocks:
   -
-    info: 'Footer thumbnails custom block'
+    info: NEWSLETTER
     langcode: en
-    uuid: dbd292f4-9276-4623-8b29-16566f8d223d
-    bundle: footer_thumbnails_block_type
+    uuid: 4fc55fd3-8378-47fd-ab82-5a931eefebc4
+    bundle: home_page_our_impact
     revision_id: null
     rev_id_current: null
     fields:
       body:
         -
-          value: "<div id=\"footer-thumbnails\">\r\n<div class=\"row\">\r\n<div class=\"column\"><a href=\"https://www.tnlcommunityfund.org.uk/\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"b184a2d9-d1f3-4763-a209-c6fca2ea70ef\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</a></div>\r\n\r\n<div class=\"column\"><a href=\"http://www.croydonalmshouses.org.uk/relief-in-need.html\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"d726c4b9-1825-4b32-9f0e-8b2c765e9995\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</a></div>\r\n\r\n<div class=\"column\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"d4da1266-3af3-421d-8821-512c5eda8471\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</div>\r\n\r\n<div class=\"column\"><a href=\"https://www.digitalunite.com/\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"36814049-128b-4a96-90d5-6530d7fc942b\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</a></div>\r\n\r\n<div class=\"column\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"51a863d2-6721-476a-8420-33ddbcd514fc\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</div>\r\n\r\n<div class=\"column\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"c456a1be-19cd-4ee3-b763-d6555c9d4d4a\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</div>\r\n</div>\r\n</div>\r\n"
+          value: "<div id=\"mc_embed_shell\">\r\n<div id=\"mc_embed_signup\">\r\n<form action=\"https://yahoo.us10.list-manage.com/subscribe/post?u=044fb5c39955218b38b9fb8f0&amp;id=210c69e106&amp;f_id=006fdae5f0\" class=\"validate\" id=\"mc-embedded-subscribe-form\" method=\"post\" name=\"mc-embedded-subscribe-form\" novalidate=\"\" target=\"_self\">\r\n<div id=\"mc_embed_signup_scroll\">\r\n<h2 id=\"mc_title\">Newsletter</h2>\r\n\r\n<p id=\"mc_info\">Sign up for news, class information and to stay in touch</p>\r\n\r\n<p id=\"mc_checkbox_question\"><span>What are you interested in?</span> <input id=\"gen_news\" name=\"gen_news\" type=\"checkbox\" value=\"gen_news\" /><label for=\"gen_news\"> General News</label> <input id=\"volunteering\" name=\"volunteering\" type=\"checkbox\" value=\"volunteering\" /><label for=\"volunteering\"> Volunteering</label></p>\r\n\r\n<div class=\"mc-field-group\"><input class=\"required email\" id=\"mce-EMAIL\" name=\"EMAIL\" placeholder=\"Your e-mail address\" required=\"\" type=\"email\" value=\"\" /> <input class=\"button\" id=\"mc-embedded-subscribe\" name=\"subscribe\" type=\"submit\" value=\"SIGN UP\" /></div>\r\n\r\n<div class=\"clear foot\" id=\"mce-responses\">\r\n<div class=\"response\" id=\"mce-error-response\" style=\"display: none;\">&nbsp;</div>\r\n\r\n<div class=\"response\" id=\"mce-success-response\" style=\"display: none;\">&nbsp;</div>\r\n</div>\r\n\r\n<div aria-hidden=\"true\" style=\"position: absolute; left: -5000px;\">/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */ <input name=\"b_044fb5c39955218b38b9fb8f0_210c69e106\" tabindex=\"-1\" type=\"text\" value=\"\" /></div>\r\n</div>\r\n</form>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: wysiwyg
   -
-    info: 'Blog Page Headline'
+    info: 'Home Page Embedded Video'
     langcode: en
-    uuid: c2bd4daa-1b8c-4924-995c-d86434616370
-    bundle: blog_page_headline
+    uuid: 4466ffae-bb35-447f-8fb6-92678e99a15d
+    bundle: home_page_embedded_video
     revision_id: null
     rev_id_current: null
     fields:
       body:
         -
-          value: '<h1 class="text-align-center">Blog</h1>'
-          summary: ''
-          format: wysiwyg
-  -
-    info: 'Home Page head'
-    langcode: en
-    uuid: 778534b1-f0ab-45f7-ab11-e6596e4711f7
-    bundle: home_page_head
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: "<h1 class=\"text-align-center\">ClearCommunityWeb</h1>\r\n\r\n<h2>We develop digital skills, awareness &amp; build confidence online.</h2>\r\n"
-          summary: ''
-          format: wysiwyg
-  -
-    info: 'Lower footer third block'
-    langcode: en
-    uuid: 8f9a95fe-0c40-45c6-b050-4f7871e89bc3
-    bundle: lower_footer_third_block_type
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: "<div class=\"lower-footer-social-icons\">\r\n<div class=\"lower-footer-social-icon-facebook\"><a class=\"icon\" href=\"https://www.facebook.com/ClearCommunityWeb\"><span aria-hidden=\"true\" class=\"fa fa-facebook\">&nbsp;</span></a></div>\r\n\r\n<div class=\"lower-footer-social-icon-twitter\"><a class=\"icon\" href=\"https://twitter.com/ClearCommunity\"><span aria-hidden=\"true\" class=\"fa fa-twitter\">&nbsp;</span></a></div>\r\n\r\n<div class=\"lower-footer-social-icon-instagram\"><a class=\"icon\" href=\"https://instagram.com/ClearCommunityWeb\"><span aria-hidden=\"true\" class=\"fa fa-instagram\">&nbsp;</span></a></div>\r\n</div>\r\n"
-          summary: ''
-          format: wysiwyg
-  -
-    info: 'Lower footer second'
-    langcode: en
-    uuid: a8b3fe14-a84e-419f-bb78-0d3f41c3e6f7
-    bundle: lower_footer_second_block_type
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p>Empty</p>'
-          summary: ''
-          format: wysiwyg
-  -
-    info: 'Lower Footer First block'
-    langcode: en
-    uuid: 29dfb5d7-3248-4412-ab2f-d663f6eb927c
-    bundle: lower_footer_first
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: '<p>© 2022 ClearCommunityWeb CIC No.11900948 | Built by <a href="https://clearcommunityweb.co.uk">ClearCommunityWeb</a></p>'
+          value: "<h1 class=\"our-impact-title\">Our Impact</h1>\r\n\r\n<div id=\"our-impact-video\"><iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\" frameborder=\"0\" src=\"https://www.youtube.com/embed/6kA2xMV2ZRg?si=qxJ35FgpycVAKLDC\" title=\"YouTube video player\"></iframe></div>\r\n"
           summary: ''
           format: wysiwyg
 menus:

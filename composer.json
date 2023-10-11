@@ -36,6 +36,7 @@
         "drupal/flexslider": "^2.0",
         "drupal/gin": "^3.0@RC",
         "drupal/link_attributes": "^1.14",
+        "drupal/mailchimp": "^2.2",
         "drupal/paragraphs": "^1.16",
         "drupal/structure_sync": "^2.0",
         "localgovdrupal/localgov": "^2.0",

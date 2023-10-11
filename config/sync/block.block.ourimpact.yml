@@ -1,0 +1,30 @@
+uuid: 462b9e01-cb96-4e4b-8e64-2c307a2d652f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:home_page_our_impact:4fc55fd3-8378-47fd-ab82-5a931eefebc4'
+  module:
+    - block_content
+    - system
+  theme:
+    - ccw_lgd
+id: ourimpact
+theme: ccw_lgd
+region: content_bottom
+weight: 0
+provider: null
+plugin: 'block_content:4fc55fd3-8378-47fd-ab82-5a931eefebc4'
+settings:
+  id: 'block_content:4fc55fd3-8378-47fd-ab82-5a931eefebc4'
+  label: 'Our Impact'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

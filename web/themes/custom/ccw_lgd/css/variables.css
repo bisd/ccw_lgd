@@ -64,8 +64,6 @@ body {
   --font-size-large: calc(var(--font-size) * 1.45);
   --font-size-larger: calc(var(--font-size) * 2.25);
   --font-size-largest: calc(var(--font-size) * 2.625);
-
-
   --heading-font-weight: 500;
 
   --line-height: 1.5;
@@ -78,6 +76,8 @@ body {
   --heading-4-line-height: var(--line-height);
   --heading-5-line-height: var(--line-height);
   --heading-6-line-height: var(--line-height);
+
+  /*--vertical-rhythm-spacing: calc(var(--line-height) * 0.7rem);*/
 }
 
 body {

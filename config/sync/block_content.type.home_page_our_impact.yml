@@ -1,0 +1,8 @@
+uuid: 170b089c-45fa-471d-b2a5-3ed271241ef2
+langcode: en
+status: true
+dependencies: {  }
+id: home_page_our_impact
+label: 'Home Page Our Impact'
+revision: 1
+description: 'Block on home page with video'

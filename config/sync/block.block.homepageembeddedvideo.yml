@@ -1,0 +1,30 @@
+uuid: cea23273-3a28-4333-b681-28f2a2b4e775
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:home_page_embedded_video:4466ffae-bb35-447f-8fb6-92678e99a15d'
+  module:
+    - block_content
+    - system
+  theme:
+    - ccw_lgd
+id: homepageembeddedvideo
+theme: ccw_lgd
+region: content_bottom
+weight: 0
+provider: null
+plugin: 'block_content:4466ffae-bb35-447f-8fb6-92678e99a15d'
+settings:
+  id: 'block_content:4466ffae-bb35-447f-8fb6-92678e99a15d'
+  label: 'Home Page Embedded Video'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -297,6 +297,8 @@ display:
         options: {  }
       defaults:
         access: false
+        style: true
+        row: true
       display_description: ''
       display_extenders: {  }
       block_description: 'Blog Page Blogs Block'

@@ -1,0 +1,22 @@
+uuid: 1d711b81-2b8d-4f8d-8335-4a12e9ab8783
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home_page_embedded_video
+    - field.field.block_content.home_page_embedded_video.body
+  module:
+    - text
+id: block_content.home_page_embedded_video.default
+targetEntityType: block_content
+bundle: home_page_embedded_video
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

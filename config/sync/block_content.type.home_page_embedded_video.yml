@@ -1,0 +1,8 @@
+uuid: 01e4851e-fad3-4946-8c87-355ae9db55c1
+langcode: en
+status: true
+dependencies: {  }
+id: home_page_embedded_video
+label: 'Home Page Embedded Video'
+revision: 0
+description: ''
