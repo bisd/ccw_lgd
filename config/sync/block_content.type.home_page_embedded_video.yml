@@ -3,6 +3,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: home_page_embedded_video
-label: 'Home Page Embedded Video'
+label: 'Home Page Our Impact'
 revision: 0
 description: ''

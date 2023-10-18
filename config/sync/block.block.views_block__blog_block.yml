@@ -12,7 +12,7 @@ dependencies:
 id: views_block__blog_block
 theme: ccw_lgd
 region: content_bottom
-weight: 0
+weight: -12
 provider: null
 plugin: 'views_block:blog-block_1'
 settings:

@@ -1,28 +1,15 @@
 blocks:
   -
-    info: NEWSLETTER
+    info: 'Home Page Instagram block'
     langcode: en
-    uuid: 4fc55fd3-8378-47fd-ab82-5a931eefebc4
-    bundle: home_page_our_impact
+    uuid: 20fe2756-6fea-409c-a274-d0bada581160
+    bundle: home_page_instagram_block
     revision_id: null
     rev_id_current: null
     fields:
       body:
         -
-          value: "<div id=\"mc_embed_shell\">\r\n<div id=\"mc_embed_signup\">\r\n<form action=\"https://yahoo.us10.list-manage.com/subscribe/post?u=044fb5c39955218b38b9fb8f0&amp;id=210c69e106&amp;f_id=006fdae5f0\" class=\"validate\" id=\"mc-embedded-subscribe-form\" method=\"post\" name=\"mc-embedded-subscribe-form\" novalidate=\"\" target=\"_self\">\r\n<div id=\"mc_embed_signup_scroll\">\r\n<h2 id=\"mc_title\">Newsletter</h2>\r\n\r\n<p id=\"mc_info\">Sign up for news, class information and to stay in touch</p>\r\n\r\n<p id=\"mc_checkbox_question\"><span>What are you interested in?</span> <input id=\"gen_news\" name=\"gen_news\" type=\"checkbox\" value=\"gen_news\" /><label for=\"gen_news\"> General News</label> <input id=\"volunteering\" name=\"volunteering\" type=\"checkbox\" value=\"volunteering\" /><label for=\"volunteering\"> Volunteering</label></p>\r\n\r\n<div class=\"mc-field-group\"><input class=\"required email\" id=\"mce-EMAIL\" name=\"EMAIL\" placeholder=\"Your e-mail address\" required=\"\" type=\"email\" value=\"\" /> <input class=\"button\" id=\"mc-embedded-subscribe\" name=\"subscribe\" type=\"submit\" value=\"SIGN UP\" /></div>\r\n\r\n<div class=\"clear foot\" id=\"mce-responses\">\r\n<div class=\"response\" id=\"mce-error-response\" style=\"display: none;\">&nbsp;</div>\r\n\r\n<div class=\"response\" id=\"mce-success-response\" style=\"display: none;\">&nbsp;</div>\r\n</div>\r\n\r\n<div aria-hidden=\"true\" style=\"position: absolute; left: -5000px;\">/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */ <input name=\"b_044fb5c39955218b38b9fb8f0_210c69e106\" tabindex=\"-1\" type=\"text\" value=\"\" /></div>\r\n</div>\r\n</form>\r\n</div>\r\n</div>\r\n"
-          summary: ''
-          format: wysiwyg
-  -
-    info: 'Home Page Embedded Video'
-    langcode: en
-    uuid: 4466ffae-bb35-447f-8fb6-92678e99a15d
-    bundle: home_page_embedded_video
-    revision_id: null
-    rev_id_current: null
-    fields:
-      body:
-        -
-          value: "<h1 class=\"our-impact-title\">Our Impact</h1>\r\n\r\n<div id=\"our-impact-video\"><iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\" frameborder=\"0\" src=\"https://www.youtube.com/embed/6kA2xMV2ZRg?si=qxJ35FgpycVAKLDC\" title=\"YouTube video player\"></iframe></div>\r\n"
+          value: "<div id=\"home-page-insta-logo\"><drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"46bbba18-cbf1-4f9b-aa2e-216b169a290b\" data-view-mode=\"freestyle\"></drupal-media></div>\r\n"
           summary: ''
           format: wysiwyg
 menus:

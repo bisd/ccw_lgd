@@ -40,7 +40,7 @@ body {
  /*--color-accent: green;
   --font-secondary: oswald, var(--font-primary);
   --line-height: 1.3;*/
-
+ 
   --border-width-none: 0px;
   --font-primary: Helvetica, Arial, Lucida, sans-serif;
   --font-secondary: 'Montserrat', var(--font-primary);
@@ -68,7 +68,9 @@ body {
 
   --line-height: 1.5;
   --heading-text-align: center;
-  --width-extra-large: 67.5rem;
+
+  --width-ccw-extra-large: 80rem; /* 1280px */
+  --width-container: var(--width-ccw-extra-large); 
 
   --heading-1-line-height: var(--line-height * 2.46);
   --heading-2-line-height: var(--line-height);
@@ -82,6 +84,7 @@ body {
 
 body {
   /* Apply Variables */
+  --width-mega: var(--width-ccw-extra-large);
   --color-section-pre-footer-bg: var(--color-white);
   --color-section-post-footer-bg: var(--color-accent);
   --color-post-footer-text: var(--color-white);

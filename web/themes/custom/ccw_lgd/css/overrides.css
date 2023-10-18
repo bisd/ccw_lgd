@@ -98,6 +98,12 @@ h6,
   width: 90vw;
 }*/
 
+/*Home Page Header*/
+[id^="block-homepagehead"] {
+   max-width: 87%;
+   margin: auto;
+}
+
  /*Embedded video on home page*/
  #our-impact-video {
    padding-bottom:56.25%; 
@@ -155,6 +161,13 @@ h6,
    padding: 2%;
    max-width: 800px;
    margin: auto;
+ }
+
+ /*Insta*/
+ #home-page-insta-logo img{
+   margin-top: 55px;
+   margin-left: auto;
+   margin-right: auto;
  }
 
 /*Footer thumbnails*/

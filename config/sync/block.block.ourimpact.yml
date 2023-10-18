@@ -12,7 +12,7 @@ dependencies:
 id: ourimpact
 theme: ccw_lgd
 region: content_bottom
-weight: 0
+weight: -10
 provider: null
 plugin: 'block_content:4fc55fd3-8378-47fd-ab82-5a931eefebc4'
 settings:

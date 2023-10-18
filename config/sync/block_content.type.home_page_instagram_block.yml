@@ -1,0 +1,8 @@
+uuid: 023c5816-0885-439a-b7c4-ae640c9ebeef
+langcode: en
+status: true
+dependencies: {  }
+id: home_page_instagram_block
+label: 'Home Page Instagram block'
+revision: 1
+description: ''

@@ -1,23 +1,23 @@
-uuid: 7b8dfaec-b371-48ac-b0cc-25c806beedb9
+uuid: 1dd549f2-77ff-48ca-9349-ec08cf86065e
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:blog_page_headline:c2bd4daa-1b8c-4924-995c-d86434616370'
+    - 'block_content:home_page_instagram_block:20fe2756-6fea-409c-a274-d0bada581160'
   module:
     - block_content
     - system
   theme:
     - ccw_lgd
-id: blogpageheadline_3
+id: homepageinstagramblock
 theme: ccw_lgd
 region: content_bottom
-weight: -13
+weight: -9
 provider: null
-plugin: 'block_content:c2bd4daa-1b8c-4924-995c-d86434616370'
+plugin: 'block_content:20fe2756-6fea-409c-a274-d0bada581160'
 settings:
-  id: 'block_content:c2bd4daa-1b8c-4924-995c-d86434616370'
-  label: 'Home Page Blog Headline'
+  id: 'block_content:20fe2756-6fea-409c-a274-d0bada581160'
+  label: 'Home Page Instagram block'
   label_display: '0'
   provider: block_content
   status: true

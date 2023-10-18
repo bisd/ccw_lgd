@@ -1,0 +1,23 @@
+uuid: 6217c73a-9d42-471b-a6cb-a1018b196a12
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.home_page_instagram_block
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.home_page_instagram_block.body
+field_name: body
+entity_type: block_content
+bundle: home_page_instagram_block
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

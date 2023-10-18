@@ -3,6 +3,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: home_page_our_impact
-label: 'Home Page Our Impact'
+label: 'Home Page Newsletter'
 revision: 1
 description: 'Block on home page with video'
