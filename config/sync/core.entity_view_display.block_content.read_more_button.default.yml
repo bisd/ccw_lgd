@@ -1,0 +1,22 @@
+uuid: 83181149-461c-4f4c-acad-19efdb16ce33
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.read_more_button
+    - field.field.block_content.read_more_button.body
+  module:
+    - text
+id: block_content.read_more_button.default
+targetEntityType: block_content
+bundle: read_more_button
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

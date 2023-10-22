@@ -1,15 +1,15 @@
 blocks:
   -
-    info: 'Home Page Instagram block'
+    info: 'Lower Footer First block'
     langcode: en
-    uuid: 20fe2756-6fea-409c-a274-d0bada581160
-    bundle: home_page_instagram_block
+    uuid: 29dfb5d7-3248-4412-ab2f-d663f6eb927c
+    bundle: lower_footer_first
     revision_id: null
     rev_id_current: null
     fields:
       body:
         -
-          value: "<div id=\"home-page-insta-logo\"><drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"46bbba18-cbf1-4f9b-aa2e-216b169a290b\" data-view-mode=\"freestyle\"></drupal-media></div>\r\n"
+          value: '<p>© 2022 ClearCommunityWeb CIC No.11900948 | Built by <a href="https://clearcommunityweb.co.uk">ClearCommunityWeb</a></p>'
           summary: ''
           format: wysiwyg
 menus:

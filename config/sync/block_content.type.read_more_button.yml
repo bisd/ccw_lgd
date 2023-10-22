@@ -1,0 +1,8 @@
+uuid: 2086550b-7bde-46f9-860d-a58dabc72a8f
+langcode: en
+status: true
+dependencies: {  }
+id: read_more_button
+label: 'Read more button'
+revision: 0
+description: 'To replace "Read more" text block'

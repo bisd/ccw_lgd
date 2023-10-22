@@ -26,25 +26,6 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          595cf3fc-fa1a-48c3-9f52-c4e809856f9c:
-            uuid: 595cf3fc-fa1a-48c3-9f52-c4e809856f9c
-            region: content
-            configuration:
-              id: 'field_block:node:blog:body'
-              label: Body
-              label_display: '0'
-              provider: layout_builder
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-              formatter:
-                type: text_trimmed
-                label: hidden
-                settings:
-                  trim_length: 200
-                third_party_settings: {  }
-            weight: 4
-            additional: {  }
           dea87d19-b0b1-4f65-962f-3f3a31a70bb1:
             uuid: dea87d19-b0b1-4f65-962f-3f3a31a70bb1
             region: content
@@ -57,14 +38,14 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
               formatter:
-                type: image
+                type: responsive_image
                 label: hidden
                 settings:
-                  image_link: ''
-                  image_style: ''
-                  image_loading:
-                    attribute: lazy
-                third_party_settings: {  }
+                  responsive_image_style: freestyle_responsive
+                  image_link: content
+                third_party_settings:
+                  field_formatter_class:
+                    class: ''
             weight: 0
             additional: {  }
           6bc551f5-5a6c-4856-ba64-1056552da00d:

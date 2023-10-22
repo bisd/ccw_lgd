@@ -1,4 +1,4 @@
-uuid: e17f19c5-f13f-4427-8f2c-bea733708465
+uuid: 1d85f2e9-d799-47ae-97de-be276b2ae69f
 langcode: en
 status: true
 dependencies:
@@ -9,16 +9,16 @@ dependencies:
     - views
   theme:
     - ccw_lgd
-id: views_block__blog_block
+id: views_block__blog_block_3
 theme: ccw_lgd
 region: content_bottom
-weight: -12
+weight: 0
 provider: null
-plugin: 'views_block:blog-block_1'
+plugin: 'views_block:blog-block_3'
 settings:
-  id: 'views_block:blog-block_1'
+  id: 'views_block:blog-block_3'
   label: ''
-  label_display: '0'
+  label_display: visible
   provider: views
   views_label: ''
   items_per_page: none
@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '<front>'
+    pages: /home2

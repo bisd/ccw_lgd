@@ -231,12 +231,12 @@ display:
         type: grid
         options:
           uses_fields: false
-          columns: 3
-          automatic_width: true
+          columns: 12
+          automatic_width: false
           alignment: horizontal
-          row_class_custom: ''
+          row_class_custom: lgd-row
           row_class_default: true
-          col_class_custom: ''
+          col_class_custom: lgd-row__one-third
           col_class_default: true
       row:
         type: 'entity:node'
@@ -319,11 +319,29 @@ display:
       access:
         type: none
         options: {  }
+      style:
+        type: grid
+        options:
+          uses_fields: false
+          columns: 12
+          automatic_width: false
+          alignment: horizontal
+          row_class_custom: lgd-row
+          row_class_default: true
+          col_class_custom: lgd-row__one-third
+          col_class_default: true
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: teaser
       defaults:
         access: false
+        style: false
+        row: false
       display_description: ''
       display_extenders: {  }
-      block_description: 'Home Page Blogs Block'
+      block_description: 'Home Page Blog Duplicate Block'
     cache_metadata:
       max-age: -1
       contexts:
