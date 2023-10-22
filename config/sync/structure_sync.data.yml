@@ -1,15 +1,15 @@
 blocks:
   -
-    info: 'Lower Footer First block'
+    info: 'Footer thumbnails custom block'
     langcode: en
-    uuid: 29dfb5d7-3248-4412-ab2f-d663f6eb927c
-    bundle: lower_footer_first
+    uuid: dbd292f4-9276-4623-8b29-16566f8d223d
+    bundle: footer_thumbnails_block_type
     revision_id: null
     rev_id_current: null
     fields:
       body:
         -
-          value: '<p>© 2022 ClearCommunityWeb CIC No.11900948 | Built by <a href="https://clearcommunityweb.co.uk">ClearCommunityWeb</a></p>'
+          value: "<div id=\"footer-thumbnails\">\r\n<div class=\"lgd-row\">\r\n<div class=\"col-1 lgd-row__one-sixth\"><a href=\"https://www.tnlcommunityfund.org.uk/\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"b184a2d9-d1f3-4763-a209-c6fca2ea70ef\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</a></div>\r\n\r\n<div class=\"col-2 lgd-row__one-sixth\"><a href=\"http://www.croydonalmshouses.org.uk/relief-in-need.html\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"d726c4b9-1825-4b32-9f0e-8b2c765e9995\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</a></div>\r\n\r\n<div class=\"col-3 lgd-row__one-sixth\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"d4da1266-3af3-421d-8821-512c5eda8471\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</div>\r\n\r\n<div class=\"col-4 lgd-row__one-sixth\"><a href=\"https://www.digitalunite.com/\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"36814049-128b-4a96-90d5-6530d7fc942b\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</a></div>\r\n\r\n<div class=\"col-5 lgd-row__one-sixth\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"51a863d2-6721-476a-8420-33ddbcd514fc\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</div>\r\n\r\n<div class=\"col-6 lgd-row__one-sixth\">\r\n<drupal-media data-align=\"center\" data-entity-type=\"media\" data-entity-uuid=\"c456a1be-19cd-4ee3-b763-d6555c9d4d4a\" data-view-mode=\"scale_crop_7_3_large\"></drupal-media>\r\n</div>\r\n</div>\r\n</div>\r\n"
           summary: ''
           format: wysiwyg
 menus:
