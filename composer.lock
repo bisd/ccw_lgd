@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7930a42acabbd7c86ee8b6d85ef4c409",
+    "content-hash": "9d7b248042a94c3b74130a0bfc56ee95",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2081,6 +2081,107 @@
             }
         },
         {
+            "name": "drupal/block_class",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/block_class.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/block_class-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "29cfdb646ef83210f0eced30b38243339158fe3f"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1615217722",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Todd Nienkerk",
+                    "homepage": "https://www.drupal.org/u/todd-nienkerk",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Renato Gonçalves (RenatoG)",
+                    "homepage": "https://www.drupal.org/u/RenatoG",
+                    "email": "renatog@ciandt.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Neslee Canil Pinto",
+                    "homepage": "https://www.drupal.org/u/neslee-canil-pinto",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Aaron Stanush",
+                    "homepage": "https://www.drupal.org/u/aaron-stanush",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "David Suissa (DYdave)",
+                    "homepage": "https://www.drupal.org/u/DYdave",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Four Kitchens",
+                    "homepage": "https://www.drupal.org/user/358502",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "berenddeboer",
+                    "homepage": "https://www.drupal.org/u/berenddeboer",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "elliotttf",
+                    "homepage": "https://www.drupal.org/u/elliotttf",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Michal Minecki (mirzu)",
+                    "homepage": "https://www.drupal.org/u/mirzu",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Patrick Coffey (pcoffey)",
+                    "homepage": "https://www.drupal.org/u/pcoffey",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Taylor Smith (tsmith512)",
+                    "homepage": "https://www.drupal.org/u/tsmith512",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Allows assigning classes to Blocks.",
+            "homepage": "https://www.drupal.org/project/block_class",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/block_class",
+                "issues": "https://www.drupal.org/project/issues/block_class",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
             "name": "drupal/blog",
             "version": "3.1.2",
             "source": {
@@ -3913,17 +4014,17 @@
         },
         {
             "name": "drupal/geofield",
-            "version": "1.55.0",
+            "version": "1.56.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/geofield.git",
-                "reference": "8.x-1.55"
+                "reference": "8.x-1.56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.55.zip",
-                "reference": "8.x-1.55",
-                "shasum": "88403ad29424e3b5aba454534fcdcd53565b11f7"
+                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.56.zip",
+                "reference": "8.x-1.56",
+                "shasum": "edcb25304edb860d0fe907b8aa2dc73b6fc83f39"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9 || ^10",
@@ -3932,8 +4033,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.55",
-                    "datestamp": "1692829747",
+                    "version": "8.x-1.56",
+                    "datestamp": "1698017493",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4718,17 +4819,17 @@
         },
         {
             "name": "drupal/leaflet",
-            "version": "10.2.1",
+            "version": "10.2.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/leaflet.git",
-                "reference": "10.2.1"
+                "reference": "10.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/leaflet-10.2.1.zip",
-                "reference": "10.2.1",
-                "shasum": "a2ff67ce7efc0ac4c0d671dc14f7a6bee35c9e00"
+                "url": "https://ftp.drupal.org/files/projects/leaflet-10.2.3.zip",
+                "reference": "10.2.3",
+                "shasum": "0d29b11403511492370895341e39b51255445d1d"
             },
             "require": {
                 "drupal/core": "^9 || ^10",
@@ -4737,8 +4838,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "10.2.1",
-                    "datestamp": "1696628969",
+                    "version": "10.2.3",
+                    "datestamp": "1698436423",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5319,17 +5420,17 @@
         },
         {
             "name": "drupal/preview_link",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/preview_link.git",
-                "reference": "8.x-1.7"
+                "reference": "8.x-1.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/preview_link-8.x-1.7.zip",
-                "reference": "8.x-1.7",
-                "shasum": "bfed04e554864f9c3fb5d7a758bc27f5041f1518"
+                "url": "https://ftp.drupal.org/files/projects/preview_link-8.x-1.8.zip",
+                "reference": "8.x-1.8",
+                "shasum": "fe28ccaf3a2c4a38ea3e8e9397d75060eea47803"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -5341,8 +5442,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.7",
-                    "datestamp": "1593052165",
+                    "version": "8.x-1.8",
+                    "datestamp": "1698724771",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7908,16 +8009,16 @@
         },
         {
             "name": "localgovdrupal/localgov_guides",
-            "version": "2.1.3",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/localgovdrupal/localgov_guides.git",
-                "reference": "25f9c65d089df60a966f051703b3739277e2abb0"
+                "reference": "71c06574a80256b6d517f1ab396984d4854c35de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/localgovdrupal/localgov_guides/zipball/25f9c65d089df60a966f051703b3739277e2abb0",
-                "reference": "25f9c65d089df60a966f051703b3739277e2abb0",
+                "url": "https://api.github.com/repos/localgovdrupal/localgov_guides/zipball/71c06574a80256b6d517f1ab396984d4854c35de",
+                "reference": "71c06574a80256b6d517f1ab396984d4854c35de",
                 "shasum": ""
             },
             "require": {
@@ -7937,9 +8038,9 @@
             "homepage": "https://github.com/localgovdrupal/localgov_guides",
             "support": {
                 "issues": "https://github.com/localgovdrupal/localgov_guides/issues",
-                "source": "https://github.com/localgovdrupal/localgov_guides/tree/2.1.3"
+                "source": "https://github.com/localgovdrupal/localgov_guides/tree/2.1.4"
             },
-            "time": "2023-10-02T13:54:02+00:00"
+            "time": "2023-10-30T14:10:59+00:00"
         },
         {
             "name": "localgovdrupal/localgov_menu_link_group",
@@ -8172,16 +8273,16 @@
         },
         {
             "name": "localgovdrupal/localgov_search",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/localgovdrupal/localgov_search.git",
-                "reference": "8f86506b4af8f9e40c3c57797958301f23c9614c"
+                "reference": "34ad0e90de7db4a8ec5f23da334815e8522545fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/localgovdrupal/localgov_search/zipball/8f86506b4af8f9e40c3c57797958301f23c9614c",
-                "reference": "8f86506b4af8f9e40c3c57797958301f23c9614c",
+                "url": "https://api.github.com/repos/localgovdrupal/localgov_search/zipball/34ad0e90de7db4a8ec5f23da334815e8522545fb",
+                "reference": "34ad0e90de7db4a8ec5f23da334815e8522545fb",
                 "shasum": ""
             },
             "require": {
@@ -8202,9 +8303,9 @@
             "homepage": "https://github.com/localgovdrupal/localgov_search",
             "support": {
                 "issues": "https://github.com/localgovdrupal/localgov_search/issues",
-                "source": "https://github.com/localgovdrupal/localgov_search/tree/1.2.1"
+                "source": "https://github.com/localgovdrupal/localgov_search/tree/1.2.2"
             },
-            "time": "2023-08-04T14:54:18+00:00"
+            "time": "2023-10-30T14:45:43+00:00"
         },
         {
             "name": "localgovdrupal/localgov_search_solr",
@@ -8304,16 +8405,16 @@
         },
         {
             "name": "localgovdrupal/localgov_step_by_step",
-            "version": "2.1.3",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/localgovdrupal/localgov_step_by_step.git",
-                "reference": "cee721a5da7075d100bbead4ad3895bd8c777d50"
+                "reference": "ec7b764d8515432b2a3ee5c85132597cbd2bf65a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/localgovdrupal/localgov_step_by_step/zipball/cee721a5da7075d100bbead4ad3895bd8c777d50",
-                "reference": "cee721a5da7075d100bbead4ad3895bd8c777d50",
+                "url": "https://api.github.com/repos/localgovdrupal/localgov_step_by_step/zipball/ec7b764d8515432b2a3ee5c85132597cbd2bf65a",
+                "reference": "ec7b764d8515432b2a3ee5c85132597cbd2bf65a",
                 "shasum": ""
             },
             "require": {
@@ -8333,9 +8434,9 @@
             "homepage": "https://github.com/localgovdrupal/localgov_step_by_step",
             "support": {
                 "issues": "https://github.com/localgovdrupal/localgov_step_by_step/issues",
-                "source": "https://github.com/localgovdrupal/localgov_step_by_step/tree/2.1.3"
+                "source": "https://github.com/localgovdrupal/localgov_step_by_step/tree/2.1.4"
             },
-            "time": "2023-10-02T14:00:32+00:00"
+            "time": "2023-10-30T14:09:39+00:00"
         },
         {
             "name": "localgovdrupal/localgov_subsites",
@@ -9377,31 +9478,26 @@
         },
         {
             "name": "php-http/promise",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/promise.git",
-                "reference": "4c4c1f9b7289a2ec57cde7f1e9762a5789506f88"
+                "reference": "ef4905bfb492ff389eb7f12e26925a0f20073050"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/promise/zipball/4c4c1f9b7289a2ec57cde7f1e9762a5789506f88",
-                "reference": "4c4c1f9b7289a2ec57cde7f1e9762a5789506f88",
+                "url": "https://api.github.com/repos/php-http/promise/zipball/ef4905bfb492ff389eb7f12e26925a0f20073050",
+                "reference": "ef4905bfb492ff389eb7f12e26925a0f20073050",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
-                "phpspec/phpspec": "^5.1.2 || ^6.2"
+                "friends-of-phpspec/phpspec-code-coverage": "^4.3.2 || ^6.3",
+                "phpspec/phpspec": "^5.1.2 || ^6.2 || ^7.4"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Http\\Promise\\": "src/"
@@ -9428,9 +9524,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-http/promise/issues",
-                "source": "https://github.com/php-http/promise/tree/1.1.0"
+                "source": "https://github.com/php-http/promise/tree/1.2.0"
             },
-            "time": "2020-07-07T09:29:14+00:00"
+            "time": "2023-10-24T09:20:26+00:00"
         },
         {
             "name": "previousnext/nested-set",
@@ -15206,16 +15302,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.39",
+            "version": "1.10.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "d9dedb0413f678b4d03cbc2279a48f91592c97c4"
+                "reference": "93c84b5bf7669920d823631e39904d69b9c7dc5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d9dedb0413f678b4d03cbc2279a48f91592c97c4",
-                "reference": "d9dedb0413f678b4d03cbc2279a48f91592c97c4",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/93c84b5bf7669920d823631e39904d69b9c7dc5d",
+                "reference": "93c84b5bf7669920d823631e39904d69b9c7dc5d",
                 "shasum": ""
             },
             "require": {
@@ -15264,7 +15360,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-17T15:46:26+00:00"
+            "time": "2023-10-30T14:48:31+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",

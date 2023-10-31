@@ -88,21 +88,85 @@ h6,
 }
 
 .padding-horizontal-slideshow {
-   padding-right: var(--spacing-frontpage-slideshow);
-   padding-left: var(--spacing-frontpage-slideshow);
+   margin-left: 5%;
+   margin-right: 5%;
  }
 
-/*padding-bottom: 56.25%;
-  position: relative;
-  left: calc(-45vw + 50%);
-  width: 90vw;
-}*/
-
-/*Home Page Header*/
-[id^="block-homepagehead"] {
+ [id^="block-homepagehead"] {
    max-width: 87%;
    margin: auto;
 }
+
+/*Responsive head and subhead*/
+@media screen and (max-width: 48rem) {
+   #block-homepagehead--2 h1 { 
+      font-size: var(--font-size-h3);
+   }
+   #block-homepagehead--2 h2 { 
+      font-size: var(--font-size-h4);
+   }
+}
+
+ @media screen and (min-width: 48rem) {
+   #block-homepagehead--2 h1 { 
+      font-size: 40px;
+   }
+   #block-homepagehead--2 h2 { 
+      font-size: 34px;
+   }
+ }
+
+ @media screen and (min-width: 60rem) {
+   #block-homepagehead--2 h1 { 
+      font-size: var(--font-size-h1);
+   }
+   #block-homepagehead--2 h2 { 
+      font-size: var(--font-size-h2);
+   }
+ }
+
+ /*Read more links*/
+.links{
+   padding-left: 1em;
+}
+
+ .links li::marker {
+   content: none;
+ }
+
+ .btn-read-more-link {
+   margin-bottom: 9.27%;
+   text-align: center;
+   animation-timing-function: linear;
+   animation-duration: .2s;
+   position: relative;
+   background-size: cover;
+   background-position: 50%;
+   background-repeat: no-repeat;
+   opacity: 1;
+   margin-left: 0;
+   line-height: 1em;
+   content: "\35";
+   transition: all .2s;
+   text-transform: none;
+   font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif;
+   font-feature-settings: "kern" off;
+   font-variant: none;
+   font-style: normal;
+   font-weight: 400;
+   text-shadow: none;
+   color: #ffffff;
+   padding: .8em 1em !important;
+   font-size: 16px;
+   background-color: #df5017;
+   border-color: #df5017;
+   border-radius: 1px;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+   text-decoration: none;
+   display: inline-block;
+ }
 
  /*Embedded video on home page*/
  #our-impact-video {
@@ -149,6 +213,14 @@ h6,
    font-size: 20px;
    width: 60%;
  }
+
+ @media screen and (max-width: 48rem) {
+   #mce-EMAIL{
+      padding: 25px 30px;
+      font-size: 15px;
+   }
+ }
+
  #mc-embedded-subscribe{
    text-transform: uppercase;
    display: inline-block;
@@ -201,7 +273,6 @@ h6,
  @media screen and (min-width: 60rem) {
    .lgd-row__one-sixth{
       width: calc((100% / 6) - var(--grid-column-spacing));
-     
    }
  }
 

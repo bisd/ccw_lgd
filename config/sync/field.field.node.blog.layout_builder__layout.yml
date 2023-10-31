@@ -1,0 +1,21 @@
+uuid: 0615d97c-8d4d-4610-a31c-0ec2f2115226
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.blog
+  module:
+    - layout_builder
+id: node.blog.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: blog
+label: Layout
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section
