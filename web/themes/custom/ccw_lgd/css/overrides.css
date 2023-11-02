@@ -137,28 +137,28 @@ h6,
 
 /*Responsive head and subhead*/
 @media screen and (max-width: 48rem) {
-   #block-homepagehead--2 h1 { 
+   [id^="block-homepagehead"] h1 { 
       font-size: var(--font-size-h3);
    }
-   #block-homepagehead--2 h2 { 
+   [id^="block-homepagehead"] h2 { 
       font-size: var(--font-size-h4);
    }
 }
 
  @media screen and (min-width: 48rem) {
-   #block-homepagehead--2 h1 { 
+   [id^="block-homepagehead"] h1 { 
       font-size: 40px;
    }
-   #block-homepagehead--2 h2 { 
+   [id^="block-homepagehead"] h2 { 
       font-size: 34px;
    }
  }
 
  @media screen and (min-width: 60rem) {
-   #block-homepagehead--2 h1 { 
+   [id^="block-homepagehead"] h1 { 
       font-size: var(--font-size-h1);
    }
-   #block-homepagehead--2 h2 { 
+   [id^="block-homepagehead"] h2 { 
       font-size: var(--font-size-h2);
    }
  }
