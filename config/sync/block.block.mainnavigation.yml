@@ -1,4 +1,4 @@
-uuid: 36e4d8db-718c-41a8-97ab-44d494df6401
+uuid: 9cf9727e-55f4-41c9-8f80-504d93287704
 langcode: en
 status: true
 dependencies:
@@ -8,12 +8,10 @@ dependencies:
     - system
   theme:
     - ccw_lgd
-_core:
-  default_config_hash: wTuUnaKnGKQiwFQ9bz_B1kDs3FfXc_ujSdtvk4tF88g
-id: ccw_lgd_localgov_mainnavigation_scarfolk
+id: mainnavigation
 theme: ccw_lgd
 region: primary_menu
-weight: -1
+weight: 0
 provider: null
 plugin: 'system_menu_block:main'
 settings:
