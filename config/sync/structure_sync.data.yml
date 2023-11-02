@@ -97,54 +97,6 @@ menus:
     weight: 6
     langcode: en
     uuid: e30fce96-adfb-453e-9f15-094a938e042c
-  -
-    menu_name: main
-    title: 'ABOUT US'
-    parent: 'menu_link_content:713e5e5b-f039-4205-92d9-1dceb45f1d3f'
-    uri: 'entity:node/25'
-    link_title: null
-    description: null
-    enabled: true
-    expanded: false
-    weight: 0
-    langcode: en
-    uuid: 732192fc-438f-4556-8d96-45bd7dda3bec
-  -
-    menu_name: main
-    title: AREAS
-    parent: 'menu_link_content:99db72d3-8401-4bb0-93c5-20cbf48c624c'
-    uri: 'entity:node/26'
-    link_title: null
-    description: null
-    enabled: true
-    expanded: false
-    weight: 0
-    langcode: en
-    uuid: 8b00e1ac-3c18-469e-8ca7-5bcaf51e981e
-  -
-    menu_name: main
-    title: BROMLEY
-    parent: 'menu_link_content:8b00e1ac-3c18-469e-8ca7-5bcaf51e981e'
-    uri: 'entity:node/27'
-    link_title: null
-    description: null
-    enabled: true
-    expanded: false
-    weight: 0
-    langcode: en
-    uuid: b83f2d7a-9aeb-42c3-a254-0e70f144caa4
-  -
-    menu_name: main
-    title: 'MISSION, VISION AND VALUES'
-    parent: 'menu_link_content:713e5e5b-f039-4205-92d9-1dceb45f1d3f'
-    uri: 'entity:node/28'
-    link_title: null
-    description: null
-    enabled: true
-    expanded: false
-    weight: 1
-    langcode: en
-    uuid: fe6c7ddc-017e-428a-aeaa-a56e33080f8d
 taxonomies:
   blog_vocabulary:
     -
