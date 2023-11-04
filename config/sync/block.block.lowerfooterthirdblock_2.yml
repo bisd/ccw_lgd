@@ -1,6 +1,6 @@
-uuid: fa258fe5-f895-47e3-8e39-c3d519c07304
+uuid: 661eeec7-db75-4cef-938e-49e139516fc5
 langcode: en
-status: false
+status: true
 dependencies:
   content:
     - 'block_content:lower_footer_third_block_type:8f9a95fe-0c40-45c6-b050-4f7871e89bc3'
@@ -8,10 +8,10 @@ dependencies:
     - block_content
   theme:
     - ccw_lgd
-id: lowerfooterthirdblock
+id: lowerfooterthirdblock_2
 theme: ccw_lgd
 region: lower_footer_third
-weight: -14
+weight: -13
 provider: null
 plugin: 'block_content:8f9a95fe-0c40-45c6-b050-4f7871e89bc3'
 settings:

@@ -353,6 +353,35 @@ h6,
    margin-right: 0px;
 }
 
+.ccw_lower_footer_left {
+   width: 48.5%;
+}
+.ccw_lower_footer_right {
+   width: 48.5%;
+}
+
+/*Responsive footer*/
+
+@media screen and (max-width: 66.9rem) {
+   .ccw_lower_footer_left {
+      width: 100%;
+   }
+   .ccw_lower_footer_left p {
+      text-align: center;
+   }
+   .ccw_lower_footer_right {
+      width: 100%;
+   }
+   .lower-footer-social-icons {
+      padding-left: 0;
+      justify-content: center;
+   }
+   .lower-footer-social-icon-facebook, .lower-footer-social-icon-twitter, .lower-footer-social-icon-instagram {
+      width: 10%;
+    }
+}
+/*End of Responsive footer*/
+
 /*Blog*/
 
 .lgd-teaser__content--blog h3{
