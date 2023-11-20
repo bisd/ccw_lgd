@@ -70,9 +70,8 @@ body{
     }
 }
 
-
  @media screen and (min-width: 48rem) {
-   #superfish-main--2-toggle {
+   [id^="superfish-main"][id$="-toggle"]{
       position: relative;
       display: inline-block;
       width: 1.25em;
@@ -82,7 +81,7 @@ body{
       border-bottom: 0.2em solid #fff;
       text-indent: -9999px;
    }
-   #superfish-main--2-toggle:before {
+   [id^="superfish-main"][id$="-toggle"]:before {
       content: "";
       position: absolute;
       top: 0.3em;
