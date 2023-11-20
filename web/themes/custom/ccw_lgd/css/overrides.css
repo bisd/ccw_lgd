@@ -20,7 +20,84 @@ body{
    margin-top: -32px;
  }
 
+ /*Superfish styles*/
+ ul.sf-menu {
+   font-size: .875rem;
+ }
+ ul.sf-menu.menu a {
+   font-weight: 400;
+   text-decoration: none;
+ }
+ ul.sf-menu .sf-sub-indicator {
+   right: 1rem;
+ }
+
+ .sf-depth-2, .sf-depth-3, .sf-depth-4  {
+   background: var(--color-section-header-bg);
+   line-height: 200%;
+ }
+
+ #superfish-main--2 > li > ul:nth-of-type(1){
+   margin-top: 2.6rem;
+   border-top-width: 3px;
+   border-top-style: solid;
+   border-top-color: rgb(251, 179, 37);
+ }
+
+ 
+ @media screen and (max-width: 48rem) {
+ 
+   .lgd-header__toggles {
+      position: relative;
+      width: 1.25em;
+      height: 1.2em;
+     
+      border-top: 0.2em solid #fff;
+      border-bottom: 0.2em solid #fff;
+   }
+   .lgd-header__toggles:before {
+      content: "";
+      position: absolute;
+      top: 0.3em;
+      left: 0px;
+      width: 100%;
+      border-top: 0.2em solid #fff;
+   }
+   .lgd-header__toggle--primary {
+      border-color: unset;
+      border : unset;
+      text-indent: -9999px;
+    }
+}
+
+
+ @media screen and (min-width: 48rem) {
+   #superfish-main--2-toggle {
+      position: relative;
+      display: inline-block;
+      width: 1.25em;
+      height: 1.2em;
+      margin-right: 0.3em;
+      border-top: 0.2em solid #fff;
+      border-bottom: 0.2em solid #fff;
+      text-indent: -9999px;
+   }
+   #superfish-main--2-toggle:before {
+      content: "";
+      position: absolute;
+      top: 0.3em;
+      left: 0px;
+      width: 100%;
+      border-top: 0.2em solid #fff;
+   }
+}
+
+
+
+ /*End Superfish styles*/
+
   /*for main menu - from base.css*/
+ /*
   a:not([class*="toolbar"]):focus {
    text-decoration: none;
    color: none;
@@ -60,9 +137,11 @@ body{
     text-transform: uppercase;
     top: 0px;
  }
+ */
  
  /*added for responsive main menu*/
 
+ /*
 @media screen and (min-width: 45rem) {
    .lgd-header__nav--primary, .lgd-region--search {
      display: none;
@@ -96,6 +175,7 @@ body{
       display: none;
     }
  }
+ */
 
 /*end of menu styles*/
 

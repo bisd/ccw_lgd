@@ -14,6 +14,7 @@
  found at https://drupal.stackexchange.com/questions/186175/edit-read-more-and-add-new-comment-links-in-teaser/186323#186323
  */
 
+/* replaced readmore link with button */
 function ccw_lgd_preprocess_links(&$variables) {
     $variables['links']['node-readmore']['link']['#options']['attributes']['class'][] = 'btn btn-read-more-link';
 }

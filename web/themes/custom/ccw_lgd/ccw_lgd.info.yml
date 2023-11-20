@@ -10,7 +10,7 @@ libraries-extend:
   localgov_base/global:
     - ccw_lgd/variables
     - ccw_lgd/overrides
-    - ccw_lgd/header-js
+    # - ccw_lgd/header-js
     # - ccw_lgd/other-library-to-load-on-every-page
     # - ccw_lgd/other-library-to-load-on-every-page
   # Add libraries here that extend specific libraries.
