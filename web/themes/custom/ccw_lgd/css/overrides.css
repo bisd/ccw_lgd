@@ -21,6 +21,9 @@ body{
  }
 
  /*Superfish styles*/
+
+ 
+
  ul.sf-menu {
    font-size: .875rem;
  }
@@ -36,8 +39,7 @@ body{
    background: var(--color-section-header-bg);
    line-height: 200%;
  }
-
- #superfish-main--2 > li > ul:nth-of-type(1){
+ [id^="superfish-main"] > li > ul:nth-of-type(1) {
    margin-top: 2.6rem;
    border-top-width: 3px;
    border-top-style: solid;
@@ -96,7 +98,8 @@ body{
  /*End Superfish styles*/
 
   /*for main menu - from base.css*/
- /*
+ 
+  /*
   a:not([class*="toolbar"]):focus {
    text-decoration: none;
    color: none;
@@ -136,12 +139,14 @@ body{
     text-transform: uppercase;
     top: 0px;
  }
+ 
  */
  
  /*added for responsive main menu*/
 
  /*
-@media screen and (min-width: 45rem) {
+
+@media screen and (max-width: 67.5rem) {
    .lgd-header__nav--primary, .lgd-region--search {
      display: none;
      width: 100%;
@@ -161,8 +166,9 @@ body{
       line-height: 1;
     }
  }
-
-@media screen and (min-width: 67rem) {
+ 
+ 
+/*@media screen and (min-width: 67rem) {
    .lgd-header__nav--primary, .lgd-region--search {
      display: flex;
      flex-direction: row;
@@ -174,7 +180,8 @@ body{
       display: none;
     }
  }
- */
+
+*/
 
 /*end of menu styles*/
 
