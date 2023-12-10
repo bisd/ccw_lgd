@@ -1,6 +1,6 @@
 uuid: 1d85f2e9-d799-47ae-97de-be276b2ae69f
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.blog

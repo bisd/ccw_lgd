@@ -6,7 +6,6 @@ dependencies:
     - 'block_content:home_page_instagram_block:20fe2756-6fea-409c-a274-d0bada581160'
   module:
     - block_content
-    - system
   theme:
     - ccw_lgd
 id: homepageinstagramblock
@@ -23,8 +22,4 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility:
-  request_path:
-    id: request_path
-    negate: false
-    pages: '<front>'
+visibility: {  }

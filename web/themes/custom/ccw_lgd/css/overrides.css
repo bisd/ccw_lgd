@@ -22,8 +22,6 @@ body{
 
  /*Superfish styles*/
 
- 
-
  ul.sf-menu {
    font-size: .875rem;
  }
@@ -246,6 +244,13 @@ h6,
    }
    [id^="block-homepagehead"] h2 { 
       font-size: var(--font-size-h2);
+   }
+ }
+
+/*for slider responsiveness */
+@media screen and (max-width: 76rem) {
+   .dialog-off-canvas-main-canvas {
+      min-height: unset;
    }
  }
 
