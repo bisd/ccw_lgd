@@ -70,7 +70,7 @@ body{
     }
 }
 
- @media screen and (min-width: 48rem) {
+/* @media screen and (min-width: 48rem) {
    [id^="superfish-main"][id$="-toggle"]{
       position: relative;
       display: inline-block;
@@ -89,7 +89,7 @@ body{
       width: 100%;
       border-top: 0.2em solid #fff;
    }
-}
+}*/
 
 
 
@@ -212,12 +212,24 @@ h6,
 .padding-horizontal-slideshow {
    margin-left: 5%;
    margin-right: 5%;
- }
+}
 
  [id^="block-homepagehead"] {
    max-width: 87%;
    margin: auto;
 }
+
+/*Service Page heads and subheads*/
+.lgd-page-title-block {
+   border-bottom: unset;
+}
+.lgd-page-title-block__title {
+   max-width: unset;
+}
+.lgd-page-title-block__subheader {
+   display: none;
+}
+
 
 /*Responsive head and subhead*/
 @media screen and (max-width: 48rem) {
@@ -374,7 +386,8 @@ h6,
 /*Footer thumbnails*/
  /* Three image containers (use 25% for four, and 50% for two, etc) */
 #footer-thumbnails {
-   padding-top: 64px;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
 }
 
  #footer-thumbnails .column {
@@ -558,4 +571,14 @@ h6,
  }
  .lgd-region__inner--sidebar-second > a{
    display: none;
+ }
+
+ /*Contact*/
+ #edit-field-name-wrapper, #edit-field-email-address-wrapper{
+   float: left;
+   width: 48%;
+   margin: 1%;
+ }
+ #edit-message-wrapper, #edit-submit{
+   margin: 1%;
  }
