@@ -1,0 +1,12 @@
+uuid: 413e438c-6817-4948-8a49-0ce0ac269bf7
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact Us'
+recipients:
+  - bis_d@yahoo.co.uk
+reply: ''
+weight: 0
+message: 'Thanks for contacting us.'
+redirect: ''
