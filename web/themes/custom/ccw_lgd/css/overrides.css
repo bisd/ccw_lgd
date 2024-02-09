@@ -575,6 +575,8 @@ h6,
 
  /*Contact*/
  #edit-field-name-wrapper, #edit-field-email-address-wrapper{
+   position : relative;
+   z-index: 10;
    float: left;
    width: 48%;
    margin: 1%;
