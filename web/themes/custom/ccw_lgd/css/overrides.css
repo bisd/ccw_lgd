@@ -39,11 +39,7 @@ body{
  }
  [id^="superfish-main"] > li > ul:nth-of-type(1) {
    margin-top: 2.6rem;
-   border-top-width: 3px;
-   border-top-style: solid;
-   border-top-color: rgb(251, 179, 37);
  }
-
  
  @media screen and (max-width: 48rem) {
  
@@ -366,7 +362,10 @@ h6,
    text-transform: uppercase;
    display: inline-block;
    border: 1px solid red;
-   padding: 1.55rem 1.55rem;
+   padding-top: 1.65rem;
+   padding-bottom: 1.53rem;
+   padding-left: 1.55rem;
+   padding-right: 1.55rem;
    vertical-align: middle;
  }
  #mc-embedded-subscribe-form{
@@ -377,8 +376,13 @@ h6,
  }
 
  /*Insta*/
- #home-page-insta-logo img{
+ #home-page-insta-logo{
    margin-top: 55px;
+   width: 230px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ #home-page-insta-logo img{
    margin-left: auto;
    margin-right: auto;
  }
