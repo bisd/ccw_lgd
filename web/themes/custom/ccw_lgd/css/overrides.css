@@ -327,10 +327,10 @@ h6,
   #mc_embed_signup{
    padding-top: 10%;
   }
- label[for="gen_news"] {
+ label[for="mce-MMERGE60"] {
    display: contents;
  }
- label[for="volunteering"] {
+ label[for="mce-MMERGE61"] {
    display: contents;
  }
  #mc_info{
@@ -341,14 +341,13 @@ h6,
    text-align: center;
  }
  .mc-field-group{
-   margin: 1rem;
-   padding: 2rem 2rem;
+   margin: 1rem 1rem 0rem 1rem;
    text-align: center;
  }
  #mce-EMAIL{
    padding: 25px 40px;
    font-size: 20px;
-   width: 60%;
+   width: 52%;
  }
 
  @media screen and (max-width: 48rem) {
@@ -362,8 +361,8 @@ h6,
    text-transform: uppercase;
    display: inline-block;
    border: 1px solid red;
-   padding-top: 1.65rem;
-   padding-bottom: 1.53rem;
+   padding-top: 1.64rem;
+   padding-bottom: 1.5rem;
    padding-left: 1.55rem;
    padding-right: 1.55rem;
    vertical-align: middle;
