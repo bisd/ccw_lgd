@@ -1,0 +1,8 @@
+client_id: '427588359635274'
+client_secret: f0595bb33264adb1e2d43bc74077f080
+refresh_frequency: '2592000'
+avatar_uri_scheme: public
+avatar_directory: instagram_avatars
+mapping:
+  image:
+    name: ''

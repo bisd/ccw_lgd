@@ -37,6 +37,7 @@
         "drupal/entity_hierarchy": "^3.3",
         "drupal/flexslider": "^2.0",
         "drupal/gin": "^3.0@RC",
+        "drupal/instagram_feeds": "^2.0@alpha",
         "drupal/link_attributes": "^1.14",
         "drupal/mailchimp": "^2.2",
         "drupal/paragraphs": "^1.16",
