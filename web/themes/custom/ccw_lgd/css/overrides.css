@@ -386,6 +386,11 @@ h6,
    margin-right: auto;
  }
 
+ /* Instagram widget */
+.eapps-instagram-feed-title-container{
+   display:none;
+}
+
 /*Footer thumbnails*/
  /* Three image containers (use 25% for four, and 50% for two, etc) */
 #footer-thumbnails {
