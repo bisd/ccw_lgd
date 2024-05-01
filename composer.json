@@ -31,11 +31,12 @@
         "drupal/block_class": "^2.0",
         "drupal/blog": "^3.1",
         "drupal/contact_storage": "^1.3",
-        "drupal/core-composer-scaffold": "^9.1",
-        "drupal/core-project-message": "^9.1",
-        "drupal/core-recommended": "^9.1",
+        "drupal/core-composer-scaffold": "^10.1",
+        "drupal/core-project-message": "^10.1",
+        "drupal/core-recommended": "^10.1",
         "drupal/entity_hierarchy": "^3.3",
         "drupal/flexslider": "^3.0@alpha",
+        "drupal/geofield_map": "^3.0",
         "drupal/gin": "^3.0@RC",
         "drupal/instagram_feeds": "^2.0@alpha",
         "drupal/link_attributes": "^1.14",
@@ -44,14 +45,14 @@
         "drupal/structure_sync": "^2.0",
         "drupal/superfish": "^1.7",
         "drupal/upgrade_status": "^4.0",
-        "localgovdrupal/localgov": "^2.0",
+        "localgovdrupal/localgov": "^3.0@alpha",
         "localgovdrupal/localgov_search_solr": "^1.0@alpha",
         "woocommerce/flexslider": "^2.7"
     },
     "require-dev": {
         "brianium/paratest": "^6.0",
         "drupal/coder": "^8.3",
-        "drupal/core-dev": "^9.1",
+        "drupal/core-dev": "^10.1",
         "mglaman/phpstan-drupal": "^1.0",
         "phpspec/prophecy-phpunit": "^2",
         "phpstan/phpstan": "^1.0",
@@ -72,7 +73,8 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true
         }
     },
     "extra": {
