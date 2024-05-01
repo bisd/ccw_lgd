@@ -13,6 +13,7 @@ dependencies:
     - node.type.localgov_subsites_page
   module:
     - entity_browser
+    - localgov_geo
     - media
     - node
     - paragraphs
@@ -31,11 +32,13 @@ weight: 2
 is_admin: null
 permissions:
   - 'access content overview'
+  - 'access geo overview'
   - 'access media overview'
   - 'access page_components entity browser pages'
   - 'access paragraphs_library_items entity browser pages'
   - 'access toolbar'
   - 'create document media'
+  - 'create geo'
   - 'create image media'
   - 'create localgov_services_landing content'
   - 'create localgov_services_page content'
@@ -55,6 +58,7 @@ permissions:
   - 'delete any localgov_subsites_page content'
   - 'delete any media'
   - 'delete any remote_video media'
+  - 'delete geo'
   - 'delete localgov_services_landing revisions'
   - 'delete localgov_services_page revisions'
   - 'delete localgov_services_sublanding revisions'
@@ -77,6 +81,7 @@ permissions:
   - 'edit any localgov_subsites_overview content'
   - 'edit any localgov_subsites_page content'
   - 'edit any remote_video media'
+  - 'edit geo'
   - 'edit own document media'
   - 'edit own image media'
   - 'edit own localgov_services_landing content'

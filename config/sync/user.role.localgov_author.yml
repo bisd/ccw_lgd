@@ -13,6 +13,7 @@ dependencies:
     - node.type.localgov_subsites_page
   module:
     - entity_browser
+    - localgov_geo
     - media
     - node
     - paragraphs
@@ -36,6 +37,7 @@ permissions:
   - 'access paragraphs_library_items entity browser pages'
   - 'access toolbar'
   - 'create document media'
+  - 'create geo'
   - 'create image media'
   - 'create localgov_services_landing content'
   - 'create localgov_services_page content'

@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - contact
+    - localgov_geo
     - media
     - system
 _core:
@@ -15,4 +16,5 @@ is_admin: false
 permissions:
   - 'access content'
   - 'access site-wide contact form'
+  - 'view geo'
   - 'view media'
